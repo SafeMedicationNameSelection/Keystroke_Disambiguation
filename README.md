@@ -38,7 +38,7 @@ The fifth tab provides a blank pre-formatted Medication Name Disambiguation (MND
 
 ## Problems Keeping Drug Product and Medication Names Straight
 
-For approved drug products, our drug product and medication namespace is a crowded, confusing, constantly changing mashup. Here is a quick tour through some of the many issues that pertain to keeping the names straight and selecting the correct drug product. 
+For approved drug products, our drug product and medication namespace is a crowded, confusing, constantly changing mashup. Here is a quick tour through some of the many issues that pertain to keeping the names straight and selecting the correct drug product. The biggest issue of all is SAFETY. With several thousand or more drug products containing various medications already on the market, and more coming to market all the time, people regularly confuse the names in this namespace or overlook their differences. Confusing and misperceiving these names leads to medication errors, some of which have resulted in lasting harm, even death.
 
 The first issue is that we call the same medication by multiple names. Approved drug products contain medications with generic names, however the drug products themselves can have one or more brand names in the marketplace (e.g., aspirin versus Ecotrin and Zorprin). 
 
