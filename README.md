@@ -10,6 +10,20 @@ To minimize the risk of more of this type of medication error, since 2019 the In
 
 This repository provides software scripts and results for studies of keystroke disambiguation for drug product and medication names.
 
+## Understanding the "Top 200" Keystroke Disambiguation Analysis
+
+To understand the thrust of this work, download and take a look at the Excel file called "Top200KeystrokeDisambiguationAnalysis".
+
+The first tab in the file provides a list of commonly used medications and drug product names from the Pharmacy Technician Certification Board. When brand names and combination products are accounted for, a list of 224 names results.
+
+The second tab lists 224 generic medication names plus brand names when the brand names are for combination products. 
+
+The third tab shows and graphs the numeric results of a keystroke disambiguation analysis performed on the list 224 names in the second tab. In the graph, note that there are NO curves. Instead, the Y-axis plots discrete keystrokes from 1 to 22. The Y-max of 22 reflects the longest medication names in list analyzed, of which there are two: Fluticasone_propionate and Isosorbide_mononitrate. On the graph, the Blue Triangles represent the number of drug product and medication names that are disambiguated and become clear for each increasing keystroke. The point of Maximum Disambiguity is reached after 12 keystrokes when 223 of the 224 medication names have been uniquely identified by keystroke disambiguation. One of the names, Fluticasone, overlaps completely with another longer name, Fluticasone_propionate, making it impossible to disambiguate only by keystrokes.
+
+The fourth tab shows more details about the keystroke disambiguation process in this case. For each keystroke by count, starting with 1, relevant pools of drug product and medication names for all instances when disambiguation remains incomplete and more than one name is found by searching. The data on the fourth tab make it easy to see which names could still be confused as they keystrokes are increased. 
+
+The fifth tab provides a blank pre-formatted Medication Name Disambiguation (MND) chart without any data. This MND chart can be used as a template by copying its tab into other speadsheets and adding other keystroke disambiguation data there.
+
 ## Problems Keeping Drug Product and Medication Names Straight
 
 For approved drug products, our drug product and medication namespace is a crowded, confusing, constantly changing mashup. Here is a quick tour through some of the many issues that pertain to keeping the names straight and selecting the correct drug product. 
