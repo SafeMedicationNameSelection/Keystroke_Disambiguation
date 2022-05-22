@@ -1,0 +1,405 @@
+characters,search_terms,search_space_size,names_by_length,unresolved_items,disambiguated_names,possible_misses
+1,24,224,0,219,5,200
+2,98,224,0,178,46,126
+3,173,224,1,80,144,51
+4,203,223,0,31,193,20
+5,210,223,1,21,203,13
+6,214,222,3,12,212,8
+7,212,219,5,11,213,7
+8,208,214,19,9,215,6
+9,194,195,33,2,222,1
+10,161,162,53,2,222,1
+11,108,109,47,2,222,1
+12,62,62,17,0,223,0
+13,45,45,16,0,223,0
+14,29,29,9,0,223,0
+15,20,20,7,0,223,0
+16,13,13,6,0,223,0
+17,7,7,1,0,223,0
+18,6,6,1,0,223,0
+19,5,5,2,0,223,0
+20,3,3,1,0,223,0
+21,2,2,0,0,223,0
+22,2,2,2,0,223,0
+
+Unresolved List
+1
+A | Advair,Atripla,Avalide,Augmentin,Acetaminophen,Acyclovir,Albuterol,Alendronate,Alfuzosin,Allopurinol,Alprazolam,Amitriptyline,Amlodipine,Amoxicillin,Apixaban,Aspirin,Atenolol,Atomoxetine,Atorvastatin,Azithromycin
+B | Benicar,Baclofen,Benztropine,Betamethasone,Bevacizumab,Bisoprolol,Buprenorphine,Butalbital
+F | Fioricet,Famotidine,Fenofibrate,Fentanyl,Ferrous_sulfate,Finasteride,Fingolimod,Fluconazole,Fluoxetine,Fluticasone,Fluticasone_propionate,Fluvoxamine,Furosemide
+H | Hyzaar,Haloperidol,Heparin_Sodium,Hydralazine,Hydrochlorothiazide,Hydrocodone,Hydrocortisone,Hydroxychloroquine
+L | Lotrisone,Lactulose,Lamotrigine,Lansoprazole,Levetiracetam,Levodopa,Levofloxacin,Levothyroxine,Lidocaine,Liraglutide,Lisdexamfetamine,Lisinopril,Lorazepam,Losartan,Lovastatin
+N | Night_Time,Nabumetone,Naloxone,Naproxen,Niacin,Nitrofurantoin,Nitroglycerin,Nortriptyline
+P | Percocet,Pantoprazole,Paroxetine,Pemetrexed,Penicillin,Perindopril,Phenazopyridine,Phenytoin,Pioglitazone,Pravastatin,Prednisolone,Prednisone,Pregabalin
+R | Robitussin,Rabeprazole,Raloxifene,Raltegravir,Ramipril,Ranitidine,Risedronate,Risperidone,Rivaroxaban,Ropinirole,Rosuvastatin
+S | Stalevo_50,Suboxone,Salmeterol,Senna,Sertraline,Sevelamer,Sildenafil,Simvastatin,Sitagliptin,Sofosbuvir,Solifenacin,Spironolactone,Sumatriptan
+V | Vicodin,Valganciclovir,Valproate_sodium,Vardenafil,Venlafaxine
+C | Caffeine,Canagliflozin,Carbidopa,Carvedilol,Cefdinir,Cefuroxime,Celecoxib,Cephalexin,Chlorhexidine,Chlorpheniramine,Cinacalcet,Ciprofloxacin,Citalopram,Clarithromycin,Clavulanic_acid,Clindamycin,Clonazepam,Clopidogrel,Clotrimazole,Clozapine,Colchicine,Conjugated_estrogens,Cyclosporin
+D | Dabigatran,Dalteparin,Denosumab,Dextromethorphan,Diazepam,Diclofenac,Dicyclomine,Diphenhydramine,Donepezil,Doxazosin,Doxycycline,Drospirenone,Dutasteride
+E | Efavirenz,Eletriptan,Emtricitabine,Enalapril,Enoxaparin,Entacapone,Epoetin_alfa,Escitalopram,Esomeprazole,Eszopiclone,Etanercept,Ethinyl_estradiol,Ezetimibe
+G | Gabapentin,Gemfibrozil,Glimepiride,Glipizide,Glyburide,Granisetron,Guaifenesin
+I | Ibandronate,Ibuprofen,Imipramine,Infliximab,Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro,Ipratropium,Irbesartan,Isosorbide_mononitrate
+M | Meloxicam,Memantine,Metformin,Methadone,Methocarbamol,Methotrexate,Methylphenidate,Metoclopramide,Metoprolol,Metronidazole,Montelukast,Moxifloxacin,Mupirocin
+O | Olanzapine,Olmesartan,Omalizumab,Omega-3_fatty_acids,Omeprazole,Ondansetron,Oseltamivir,Oxycodone
+T | Tadalafil,Temazepam,Tenofovir,Terazosin,Tetracycline ,Tiotropium,Tizanidine,Tramadol,Trastuzumab,Trazodone,Triamcinolone,Triamterene
+Z | Zaleplon,Zoledronic_acid,Zolmitriptan,Zolpidem
+2
+At | Atripla,Atenolol,Atomoxetine,Atorvastatin
+Be | Benicar,Benztropine,Betamethasone,Bevacizumab
+Fi | Fioricet,Finasteride,Fingolimod
+Hy | Hyzaar,Hydralazine,Hydrochlorothiazide,Hydrocodone,Hydrocortisone,Hydroxychloroquine
+Lo | Lotrisone,Lorazepam,Losartan,Lovastatin
+Ni | Night_Time,Niacin,Nitrofurantoin,Nitroglycerin
+Pe | Percocet,Pemetrexed,Penicillin,Perindopril
+Ro | Robitussin,Ropinirole,Rosuvastatin
+Su | Suboxone,Sumatriptan
+Ac | Acetaminophen,Acyclovir
+Al | Albuterol,Alendronate,Alfuzosin,Allopurinol,Alprazolam
+Am | Amitriptyline,Amlodipine,Amoxicillin
+Bu | Buprenorphine,Butalbital
+Ca | Caffeine,Canagliflozin,Carbidopa,Carvedilol
+Ce | Cefdinir,Cefuroxime,Celecoxib,Cephalexin
+Ch | Chlorhexidine,Chlorpheniramine
+Ci | Cinacalcet,Ciprofloxacin,Citalopram
+Cl | Clarithromycin,Clavulanic_acid,Clindamycin,Clonazepam,Clopidogrel,Clotrimazole,Clozapine
+Co | Colchicine,Conjugated_estrogens
+Da | Dabigatran,Dalteparin
+De | Denosumab,Dextromethorphan
+Di | Diazepam,Diclofenac,Dicyclomine,Diphenhydramine
+Do | Donepezil,Doxazosin,Doxycycline
+En | Enalapril,Enoxaparin,Entacapone
+Es | Escitalopram,Esomeprazole,Eszopiclone
+Et | Etanercept,Ethinyl_estradiol
+Fe | Fenofibrate,Fentanyl,Ferrous_sulfate
+Fl | Fluconazole,Fluoxetine,Fluticasone,Fluticasone_propionate,Fluvoxamine
+Gl | Glimepiride,Glipizide,Glyburide
+Ib | Ibandronate,Ibuprofen
+In | Infliximab,Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
+La | Lactulose,Lamotrigine,Lansoprazole
+Le | Levetiracetam,Levodopa,Levofloxacin,Levothyroxine
+Li | Lidocaine,Liraglutide,Lisdexamfetamine,Lisinopril
+Me | Meloxicam,Memantine,Metformin,Methadone,Methocarbamol,Methotrexate,Methylphenidate,Metoclopramide,Metoprolol,Metronidazole
+Mo | Montelukast,Moxifloxacin
+Na | Nabumetone,Naloxone,Naproxen
+Ol | Olanzapine,Olmesartan
+Om | Omalizumab,Omega-3_fatty_acids,Omeprazole
+Pa | Pantoprazole,Paroxetine
+Ph | Phenazopyridine,Phenytoin
+Pr | Pravastatin,Prednisolone,Prednisone,Pregabalin
+Ra | Rabeprazole,Raloxifene,Raltegravir,Ramipril,Ranitidine
+Ri | Risedronate,Risperidone,Rivaroxaban
+Se | Senna,Sertraline,Sevelamer
+Si | Sildenafil,Simvastatin,Sitagliptin
+So | Sofosbuvir,Solifenacin
+Te | Temazepam,Tenofovir,Terazosin,Tetracycline 
+Ti | Tiotropium,Tizanidine
+Tr | Tramadol,Trastuzumab,Trazodone,Triamcinolone,Triamterene
+Va | Valganciclovir,Valproate_sodium,Vardenafil
+Zo | Zoledronic_acid,Zolmitriptan,Zolpidem
+3
+Ben | Benicar,Benztropine
+Per | Percocet,Perindopril
+Ato | Atomoxetine,Atorvastatin
+Car | Carbidopa,Carvedilol
+Cef | Cefdinir,Cefuroxime
+Chl | Chlorhexidine,Chlorpheniramine
+Cla | Clarithromycin,Clavulanic_acid
+Clo | Clonazepam,Clopidogrel,Clotrimazole,Clozapine
+Dic | Diclofenac,Dicyclomine
+Dox | Doxazosin,Doxycycline
+Fen | Fenofibrate,Fentanyl
+Fin | Finasteride,Fingolimod
+Flu | Fluconazole,Fluoxetine,Fluticasone,Fluticasone_propionate,Fluvoxamine
+Gli | Glimepiride,Glipizide
+Hyd | Hydralazine,Hydrochlorothiazide,Hydrocodone,Hydrocortisone,Hydroxychloroquine
+Ins | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
+Lev | Levetiracetam,Levodopa,Levofloxacin,Levothyroxine
+Lis | Lisdexamfetamine,Lisinopril
+Met | Metformin,Methadone,Methocarbamol,Methotrexate,Methylphenidate,Metoclopramide,Metoprolol,Metronidazole
+Nit | Nitrofurantoin,Nitroglycerin
+Ome | Omega-3_fatty_acids,Omeprazole
+Phe | Phenazopyridine,Phenytoin
+Pre | Prednisolone,Prednisone,Pregabalin
+Ral | Raloxifene,Raltegravir
+Ris | Risedronate,Risperidone
+Tra | Tramadol,Trastuzumab,Trazodone
+Tri | Triamcinolone,Triamterene
+Val | Valganciclovir,Valproate_sodium
+Zol | Zoledronic_acid,Zolmitriptan,Zolpidem
+4
+Chlo | Chlorhexidine,Chlorpheniramine
+Flut | Fluticasone,Fluticasone_propionate
+Hydr | Hydralazine,Hydrochlorothiazide,Hydrocodone,Hydrocortisone,Hydroxychloroquine
+Insu | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
+Levo | Levodopa,Levofloxacin,Levothyroxine
+Meth | Methadone,Methocarbamol,Methotrexate,Methylphenidate
+Meto | Metoclopramide,Metoprolol
+Nitr | Nitrofurantoin,Nitroglycerin
+Phen | Phenazopyridine,Phenytoin
+Pred | Prednisolone,Prednisone
+Tria | Triamcinolone,Triamterene
+5
+Chlor | Chlorhexidine,Chlorpheniramine
+Fluti | Fluticasone,Fluticasone_propionate
+Hydro | Hydrochlorothiazide,Hydrocodone,Hydrocortisone,Hydroxychloroquine
+Insul | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
+Metho | Methocarbamol,Methotrexate
+Nitro | Nitrofurantoin,Nitroglycerin
+Predn | Prednisolone,Prednisone
+Triam | Triamcinolone,Triamterene
+6
+Flutic | Fluticasone,Fluticasone_propionate
+Hydroc | Hydrochlorothiazide,Hydrocodone,Hydrocortisone
+Insuli | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
+Predni | Prednisolone,Prednisone
+7
+Flutica | Fluticasone,Fluticasone_propionate
+Hydroco | Hydrocodone,Hydrocortisone
+Insulin | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
+Prednis | Prednisolone,Prednisone
+8
+Fluticas | Fluticasone,Fluticasone_propionate
+Insulin_ | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
+Predniso | Prednisolone,Prednisone
+9
+Fluticaso | Fluticasone,Fluticasone_propionate
+10
+Fluticason | Fluticasone,Fluticasone_propionate
+11
+Fluticasone | Fluticasone,Fluticasone_propionate
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+
+Ordered Uniques List
+Yaz
+Ketoconazole
+Quetiapine
+Ustekinumab
+Warfarin
+Advair
+Avalide
+Augmentin
+Stalevo_50
+Vicodin
+Apixaban
+Aspirin
+Azithromycin
+Baclofen
+Bisoprolol
+Cyclosporin
+Drospirenone
+Dutasteride
+Efavirenz
+Eletriptan
+Emtricitabine
+Epoetin_alfa
+Ezetimibe
+Famotidine
+Furosemide
+Gabapentin
+Gemfibrozil
+Granisetron
+Guaifenesin
+Haloperidol
+Heparin_Sodium
+Imipramine
+Ipratropium
+Irbesartan
+Isosorbide_mononitrate
+Mupirocin
+Nortriptyline
+Ondansetron
+Oseltamivir
+Oxycodone
+Pioglitazone
+Salmeterol
+Spironolactone
+Tadalafil
+Venlafaxine
+Zaleplon
+Atripla
+Fioricet
+Hyzaar
+Lotrisone
+Night_Time
+Robitussin
+Suboxone
+Acetaminophen
+Acyclovir
+Albuterol
+Alendronate
+Alfuzosin
+Allopurinol
+Alprazolam
+Amitriptyline
+Amlodipine
+Amoxicillin
+Atenolol
+Betamethasone
+Bevacizumab
+Buprenorphine
+Butalbital
+Caffeine
+Canagliflozin
+Celecoxib
+Cephalexin
+Cinacalcet
+Ciprofloxacin
+Citalopram
+Clindamycin
+Colchicine
+Conjugated_estrogens
+Dabigatran
+Dalteparin
+Denosumab
+Dextromethorphan
+Diazepam
+Diphenhydramine
+Donepezil
+Enalapril
+Enoxaparin
+Entacapone
+Escitalopram
+Esomeprazole
+Eszopiclone
+Etanercept
+Ethinyl_estradiol
+Ferrous_sulfate
+Glyburide
+Ibandronate
+Ibuprofen
+Infliximab
+Lactulose
+Lamotrigine
+Lansoprazole
+Lidocaine
+Liraglutide
+Lorazepam
+Losartan
+Lovastatin
+Meloxicam
+Memantine
+Montelukast
+Moxifloxacin
+Nabumetone
+Naloxone
+Naproxen
+Niacin
+Olanzapine
+Olmesartan
+Omalizumab
+Pantoprazole
+Paroxetine
+Pemetrexed
+Penicillin
+Pravastatin
+Rabeprazole
+Ramipril
+Ranitidine
+Rivaroxaban
+Ropinirole
+Rosuvastatin
+Senna
+Sertraline
+Sevelamer
+Sildenafil
+Simvastatin
+Sitagliptin
+Sofosbuvir
+Solifenacin
+Sumatriptan
+Temazepam
+Tenofovir
+Terazosin
+Tetracycline 
+Tiotropium
+Tizanidine
+Vardenafil
+Benicar
+Percocet
+Atomoxetine
+Atorvastatin
+Benztropine
+Carbidopa
+Carvedilol
+Cefdinir
+Cefuroxime
+Clarithromycin
+Clavulanic_acid
+Clonazepam
+Clopidogrel
+Clotrimazole
+Clozapine
+Diclofenac
+Dicyclomine
+Doxazosin
+Doxycycline
+Fenofibrate
+Fentanyl
+Finasteride
+Fingolimod
+Fluconazole
+Fluoxetine
+Fluvoxamine
+Glimepiride
+Glipizide
+Levetiracetam
+Lisdexamfetamine
+Lisinopril
+Metformin
+Metronidazole
+Omega-3_fatty_acids
+Omeprazole
+Perindopril
+Pregabalin
+Raloxifene
+Raltegravir
+Risedronate
+Risperidone
+Tramadol
+Trastuzumab
+Trazodone
+Valganciclovir
+Valproate_sodium
+Zoledronic_acid
+Zolmitriptan
+Zolpidem
+Hydralazine
+Levodopa
+Levofloxacin
+Levothyroxine
+Methadone
+Methylphenidate
+Metoclopramide
+Metoprolol
+Phenazopyridine
+Phenytoin
+Chlorhexidine
+Chlorpheniramine
+Hydroxychloroquine
+Methocarbamol
+Methotrexate
+Nitrofurantoin
+Nitroglycerin
+Triamcinolone
+Triamterene
+Hydrochlorothiazide
+Hydrocodone
+Hydrocortisone
+Insulin_aspart
+Insulin_detemir
+Insulin_glargine
+Insulin_isophane
+Insulin_lispro
+Prednisolone
+Prednisone
+Fluticasone_propionate
