@@ -57,15 +57,12 @@ The following table displays computed counts summarizing all 11 rounds of this k
 <th>Keystroke Disambiguation Analysis Summary Data Table</th>
 </tr>
 <tr>
+  
 <td>
-| b | <sub>characters</sub> | <sub>search_terms</sub> | <sub>search_space_size</sub> | <sub>names_by_length</sub> | <sub>unresolved_items</sub> | <sub>disambiguated_names</sub> | <sub>possible_misses</sub> |
+|  | chars | terms | search space | names by length | unresolved | disambiguated | possible_misses |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Round 1 | 1 |	3 | 4 | 0 | 2 | 2 | 1 |
 | Round 2 | 2 |	3 | 4 | 0 | 2 | 2 | 1 |	
-</td>
-</tr> 
-</table>
-
 | Round 3 | 3 |	3 | 4 | 0 | 2 | 2 | 1 |	
 | Round 4 | 4 |	4 | 4 | 0 | 0 | 4 | 0 |	
 | Round 5 | 5 |	4 | 4 | 0 | 0 | 4 | 0 |
@@ -75,6 +72,12 @@ The following table displays computed counts summarizing all 11 rounds of this k
 | Round 9 | 9 |	2 | 2 | 0 | 0 | 4 | 0 |	
 | Round 10 | 10 | 2 | 2 | 1 | 0 | 4 | 0 |	
 | Round 11 | 11 | 1 | 1 | 1 | 0 | 4 | 0 |	
+</td>
+
+  </tr> 
+</table>
+
+
 
 
 ## Understanding the "Top 200" Keystroke Disambiguation Analysis
