@@ -60,8 +60,8 @@ The following table displays computed counts summarizing all 11 rounds of this k
 <td>
 
 | Round | chars | terms | search space size | names at length | unresolved | disambiguated | possible misses |
-|--|--|--|--|--|--|--|--|
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| Round 1 | 1 | 3 | 4 | 0 | 2 | 1 | 1 |
 
 </td>
 </td>
