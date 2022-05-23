@@ -73,7 +73,7 @@ Round 11	11	1	1	1	0	4	0
 
 <td>
 
-| | characters | search_terms | search_space_size | names_by_length | unresolved_items | disambiguated_names | possible_misses |
+| | <sub>characters</sub> | search_terms | search_space_size | names_by_length | unresolved_items | disambiguated_names | possible_misses |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Round 1 | 1 |	3 | 4 | 0 | 2 | 2 | 1 |
 
