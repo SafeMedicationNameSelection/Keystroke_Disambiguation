@@ -21,6 +21,16 @@ As a worked example, consider the following list of medication names:
 
 Each round of the analysis involves an increasing number of keystrokes and corresponding characters used to disambiguate the names. 
 
+In Round 1, one keystroke is used and so the single-character search terms identified by the algorithm are "A", "F", and "N". The following details are computed and reported for this round:
+
+```
+string,A,times,1,names,Aspirin
+string,F,times,2,names,Fluconazole,Fluoxetine
+string,N,times,1,names,Niacin
+```
+
+
+
 ## Understanding the "Top 200" Keystroke Disambiguation Analysis
 
 To understand the thrust of this work, download and take a look at the Excel file called "Top200KeystrokeDisambiguationAnalysis".
