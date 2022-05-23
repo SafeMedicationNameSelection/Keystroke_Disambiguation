@@ -65,6 +65,8 @@ The following table displays computed counts summarizing all 11 rounds of this k
 | Round 2 | 2 | 3 | 4 | 0 | 2 | 2 | 1 |
 | Round 3 | 3 | 3 | 4 | 0 | 2 | 2 | 1 |
 | Round 4 | 4 | 4 | 4 | 0 | 0 | 4 | 0 |
+| Round 5 | 5 | 4 | 4 | 0 | 0 | 4 | 0 |
+| Round 6 | 6 | 4 | 4 | 1 | 0 | 4 | 0 |
 
 </td>
 </td>
