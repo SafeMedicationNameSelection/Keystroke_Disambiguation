@@ -10,16 +10,16 @@ To minimize the risk of more of this type of medication error, since 2019 the In
 
 This repository provides software scripts and results for studies of keystroke disambiguation for drug product and medication names.
 
-## A Worked Example of Keystroke Disambiguation analysis using a List with Only 4 Names
+## A Worked Example of Keystroke Disambiguation Analysis
 
-As a worked example, consider the following list of medication names:
+As a worked example, consider the following very short list of only four medication names:
 
 1. Aspirin
 2. Fluconazole
 3. Fluoxetine
 4. Niacin
 
-Each round of the analysis involves an increasing number of keystrokes and corresponding characters used to disambiguate the names. 
+Each round of the analysis involves an increasing number of keystrokes and corresponding characters used to disambiguate the names on the list. 
 
 In Round 1, one keystroke is used and so the single-character search terms identified by the algorithm are "A", "F", and "N". The following details are computed and reported for this round:
 
@@ -67,6 +67,11 @@ The following table displays computed counts summarizing all 11 rounds of this k
 | Round 4 | 4 | 4 | 4 | 0 | 0 | 4 | 0 |
 | Round 5 | 5 | 4 | 4 | 0 | 0 | 4 | 0 |
 | Round 6 | 6 | 4 | 4 | 1 | 0 | 4 | 0 |
+| Round 7 | 7 | 3 | 3 | 1 | 0 | 4 | 0 |
+| Round 8 | 8 | 2 | 2 | 0 | 0 | 4 | 0 |
+| Round 9 | 9 | 2 | 2 | 0 | 0 | 4 | 0 | 
+| Round 10 | 10 | 2 | 2 | 1 | 0 | 4 | 0 |
+| Round 11 | 11 | 1 | 1 | 1 | 0 | 4 | 0 | 
 
 </td>
 </td>
