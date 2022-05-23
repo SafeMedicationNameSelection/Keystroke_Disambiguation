@@ -50,20 +50,7 @@ Rounds 5 through 11 continue similarly with increasingly lengthy search terms un
 string,Fluconazole,times,1,names,Fluconazole
 ```
 
-The following counts are computed to summarize all 11 rounds of this keystroke disambiguation analysis.
-
-	characters	search_terms	search_space_size	names_by_length	unresolved_items	disambiguated_names	possible_misses
-Round 1	1	3	4	0	2	2	1
-Round 2	2	3	4	0	2	2	1
-Round 3	3	3	4	0	2	2	1
-Round 4	4	4	4	0	0	4	0
-Round 5	5	4	4	0	0	4	0
-Round 6	6	4	4	1	0	4	0
-Round 7	7	3	3	1	0	4	0
-Round 8	8	2	2	0	0	4	0
-Round 9	9	2	2	0	0	4	0
-Round 10	10	2	2	1	0	4	0
-Round 11	11	1	1	1	0	4	0
+The following table displays computed counts summarizing all 11 rounds of this keystroke disambiguation analysis.
 
 <table>
 <tr>
@@ -73,13 +60,23 @@ Round 11	11	1	1	1	0	4	0
 
 <td>
 
-| | <sub>characters</sub> | search_terms | search_space_size | names_by_length | unresolved_items | disambiguated_names | possible_misses |
+	| | <sub>characters</sub> | <sub>search_terms</sub> | <sub>search_space_size</sub> | <sub>names_by_length</sub> | <sub>unresolved_items</sub> | <sub>disambiguated_names</sub> | <sub>possible_misses</sub> |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Round 1 | 1 |	3 | 4 | 0 | 2 | 2 | 1 |
-
+| Round 2 | 2 |	3 | 4 | 0 | 2 | 2 | 1 |	
+| Round 3 | 3 |	3 | 4 | 0 | 2 | 2 | 1 |	
+| Round 4 | 4 |	4 | 4 | 0 | 0 | 4 | 0 |	
+| Round 5 | 5 |	4 | 4 | 0 | 0 | 4 | 0 |
+| Round 6 | 6 |	4 | 4 | 1 | 0 | 4 | 0 |	
+| Round 7 | 7 |	3 | 3 | 1 | 0 | 4 | 0 |	
+| Round 8 | 8 |	2 | 2 | 0 | 0 | 4 | 0 |	
+| Round 9 | 9 |	2 | 2 | 0 | 0 | 4 | 0 |	
+| Round 10 | 10 | 2 | 2 | 1 | 0 | 4 | 0 |	
+| Round 11 | 11 | 1 | 1 | 1 | 0 | 4 | 0 |	
 </td>
 </tr> 
 </table>
+
 
 
 ## Understanding the "Top 200" Keystroke Disambiguation Analysis
