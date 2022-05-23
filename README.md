@@ -10,6 +10,17 @@ To minimize the risk of more of this type of medication error, since 2019 the In
 
 This repository provides software scripts and results for studies of keystroke disambiguation for drug product and medication names.
 
+## A Worked Example of Keystroke Disambiguation analysis using a List with Only 4 Names
+
+As a worked example, consider the following list of medication names:
+
+1. Aspirin
+2. Fluconazole
+3. Fluoxetine
+4. Niacin
+
+Each round of the analysis involves an increasing number of keystrokes and corresponding characters used to disambiguate the names. 
+
 ## Understanding the "Top 200" Keystroke Disambiguation Analysis
 
 To understand the thrust of this work, download and take a look at the Excel file called "Top200KeystrokeDisambiguationAnalysis".
