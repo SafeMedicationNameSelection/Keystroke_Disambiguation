@@ -57,10 +57,8 @@ The following table displays computed counts summarizing all 11 rounds of this k
 <th>Keystroke Disambiguation Analysis Summary Data Table</th>
 </tr>
 <tr>
-
 <td>
-
-	| | <sub>characters</sub> | <sub>search_terms</sub> | <sub>search_space_size</sub> | <sub>names_by_length</sub> | <sub>unresolved_items</sub> | <sub>disambiguated_names</sub> | <sub>possible_misses</sub> |
+| | <sub>characters</sub> | <sub>search_terms</sub> | <sub>search_space_size</sub> | <sub>names_by_length</sub> | <sub>unresolved_items</sub> | <sub>disambiguated_names</sub> | <sub>possible_misses</sub> |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Round 1 | 1 |	3 | 4 | 0 | 2 | 2 | 1 |
 | Round 2 | 2 |	3 | 4 | 0 | 2 | 2 | 1 |	
