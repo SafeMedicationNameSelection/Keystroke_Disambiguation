@@ -58,23 +58,10 @@ The following table displays computed counts summarizing all 11 rounds of this k
 </tr>
 <tr>
 <td>
-|  | chars | terms | search space | names by length | unresolved | disambiguated | possible_misses |
-|:----------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| 1 | 1 |	3 | 4 | 0 | 2 | 2 | 1 |	
-</td>
-</tr> 
-</table>
 
-<table>
-<tr>
-<th>Heading 1</th>
-</tr>
-<tr>
-<td>
-
-| Round | chars | terms | search space size |
-|--|--|--|--|
-| 1 | 2 | 3 | 4 |
+| Round | chars | terms | search space size | names at length | unresolved | disambiguated | possible misses |
+|--|--|--|--|--|--|--|--|
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 
 </td>
 </td>
