@@ -82,9 +82,9 @@ The following table displays computed counts summarizing all 11 rounds of this k
 <tr>
 <td>
 
-| A | B | C |
+| Round | chars | terms | search space size |
 |--|--|--|--|
-| 1 | 2 | 3 |
+| 1 | 2 | 3 | 4 |
 
 </td>
 </td>
