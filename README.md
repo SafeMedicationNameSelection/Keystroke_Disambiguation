@@ -29,6 +29,62 @@ string,F,times,2,names,Fluconazole,Fluoxetine
 string,N,times,1,names,Niacin
 ```
 
+Notice how, in Round 1, two of the four names are already disambiguated due to their unique first characters, A for Aspirin and N for Niacin. However, one keystroke and corresponding character, "F", is not sufficient to disambiguate Fluconazole and Fluoxetine since both names start with "F".
+
+Rounds 2 and 3, where 2 and 3 keystrokes and corresponding characters are used, respectively, do not further the disambiguation. In Round 2, the search terms are "As", "Fl", and "Ni". In Round 3 the search terms are "Asp", "Flu", "Nia". 
+
+In Round 4, things change and, for this example list with only 4 names, maximum and complete disambiguity is finally reached. The following details are computed and reported for Round 4:
+
+```
+string,Aspi,times,1,names,Aspirin
+string,Fluc,times,1,names,Fluconazole
+string,Fluo,times,1,names,Fluoxetine
+string,Niac,times,1,names,Niacin
+```
+
+Reading the details from Round 4 above, notice how each of the 4 names is now uniquely and solely matched a 4-character search term, "Aspi" for Aspirin, "Fluc" for Fluconazole, "Fluo" for Fluoxetine, and "Niac" for Niacin. In this example, four keystrokes and corresponding characters are sufficient to uniquely identify every name on the list. 
+
+Rounds 5 through 11 continue similarly with increasingly lengthy search terms until finally, in Round 11, the longest and only name with 11 characters - Fluconazole - is all that is left in the search space. The other three names have been removed from the search space immediately after the rounds in which they were fully specified. For example, since the name Niacin has 6 characters it is removed from the search space and the analysis after Round 6. Here are details from Round 11, the last round:
+
+```
+string,Fluconazole,times,1,names,Fluconazole
+```
+
+The following counts are computed to summarize all 11 rounds of this keystroke disambiguation analysis.
+
+	characters	search_terms	search_space_size	names_by_length	unresolved_items	disambiguated_names	possible_misses
+Round 1	1	3	4	0	2	2	1
+Round 2	2	3	4	0	2	2	1
+Round 3	3	3	4	0	2	2	1
+Round 4	4	4	4	0	0	4	0
+Round 5	5	4	4	0	0	4	0
+Round 6	6	4	4	1	0	4	0
+Round 7	7	3	3	1	0	4	0
+Round 8	8	2	2	0	0	4	0
+Round 9	9	2	2	0	0	4	0
+Round 10	10	2	2	1	0	4	0
+Round 11	11	1	1	1	0	4	0
+
+<table>
+<tr>
+<th>Heading 1</th>
+<th>Heading 2</th>
+</tr>
+<tr>
+
+<td>
+
+| A | B | C |
+|--|--|--|
+| 1 | 2 | 3 |
+
+</td><td>
+
+| A | B | C |
+|--|--|--|
+| 1 | 2 | 3 |
+
+</td></tr> </table>
 
 
 ## Understanding the "Top 200" Keystroke Disambiguation Analysis
