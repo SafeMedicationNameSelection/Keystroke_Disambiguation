@@ -78,7 +78,11 @@ The following table displays computed counts summarizing all 11 rounds of this k
 </tr> 
 </table>
 
+In the Table of data above, the number of search terms in rounds 1-6 is eqivalent to the number of names on the original list, 4.
 
+As noted above and seen in the disambiguated column, by Round 4, all 4 names are completely disambiguated in this simple example. 
+
+Perhaps the most important safety data in the Table above appears in the far-right column of possible misses. This column indicates how many mistakes are still possible before complete disambiguation by keystroke happens. It is first three rounds it is still possible to mistake or mis-select Fluconazole versus Fluoxetine, and that is why there is a 1 in the possible misses column until Round 4. 
 
 
 ## Understanding the "Top 200" Keystroke Disambiguation Analysis
