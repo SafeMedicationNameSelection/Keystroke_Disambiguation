@@ -60,17 +60,7 @@ The following table displays computed counts summarizing all 11 rounds of this k
 <td>
 |  | chars | terms | search space | names by length | unresolved | disambiguated | possible_misses |
 |:----------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| Round 1 | 1 |	3 | 4 | 0 | 2 | 2 | 1 |
-| Round 2 | 2 |	3 | 4 | 0 | 2 | 2 | 1 |	
-| Round 3 | 3 |	3 | 4 | 0 | 2 | 2 | 1 |	
-| Round 4 | 4 |	4 | 4 | 0 | 0 | 4 | 0 |	
-| Round 5 | 5 |	4 | 4 | 0 | 0 | 4 | 0 |
-| Round 6 | 6 |	4 | 4 | 1 | 0 | 4 | 0 |	
-| Round 7 | 7 |	3 | 3 | 1 | 0 | 4 | 0 |	
-| Round 8 | 8 |	2 | 2 | 0 | 0 | 4 | 0 |	
-| Round 9 | 9 |	2 | 2 | 0 | 0 | 4 | 0 |	
-| Round 10 | 10 | 2 | 2 | 1 | 0 | 4 | 0 |	
-| Round 11 | 11 | 1 | 1 | 1 | 0 | 4 | 0 |	
+| 1 | 1 |	3 | 4 | 0 | 2 | 2 | 1 |	
 </td>
 </tr> 
 </table>
