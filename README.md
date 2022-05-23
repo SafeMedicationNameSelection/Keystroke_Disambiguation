@@ -67,24 +67,19 @@ Round 11	11	1	1	1	0	4	0
 
 <table>
 <tr>
-<th>Heading 1</th>
-<th>Heading 2</th>
+<th>Keystroke Disambiguation Analysis Summary Data Table</th>
 </tr>
 <tr>
 
 <td>
 
-| A | B | C |
-|--|--|--|
-| 1 | 2 | 3 |
+| | characters | search_terms | search_space_size | names_by_length | unresolved_items | disambiguated_names | possible_misses |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| Round 1 | 1 |	3 | 4 | 0 | 2 | 2 | 1 |
 
-</td><td>
-
-| A | B | C |
-|--|--|--|
-| 1 | 2 | 3 |
-
-</td></tr> </table>
+</td>
+</tr> 
+</table>
 
 
 ## Understanding the "Top 200" Keystroke Disambiguation Analysis
