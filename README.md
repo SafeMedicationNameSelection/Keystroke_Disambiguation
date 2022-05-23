@@ -4,17 +4,15 @@
 
 Keystroke disambiguation is the process of typing one character at a time as a method of searching over a namespace to find and select a single drug product or medication name. As each new character is entered the search is focused towards a smaller and smaller group of possible candidate names until finally enough characters are typed in to arrive at only one name. This process simply removes drug product and medication ambiguity keystroke by keystroke.
 
-For this analysis, it is assumed that the searcher pressing keystrokes and consequently entering characters has an intended drug product or medication name in mind and is trying to select that name from the list. 
+For this analysis, it is assumed that the searcher pressing keystrokes and consequently entering characters has an intended drug product or medication name in mind and is trying to select that name from the list. Unfortunately, the process of finding and selecting a single drug product or medication by name this way can go awry. Many medication errors, including some that have led to harm and death, have involved inadequate keystroke disambiguation in the complex chain of error causation.
 
-Unfortunately, many medication errors, including some that have led to harm and death, have involved inadequate keystroke disambiguation.
-
-To minimize the risk of more of this type of medication error, since 2019 the Institute for Safe Medication Practices has recommended the entry of a minimum of the first five characters of a drug name (unless the name has fewer than five letters) during keystroke searches.
+To minimize the risk of more medication errors due in part to inadequate keystroke disambiguation of drug product and medication names, since 2019 the Institute for Safe Medication Practices has recommended the entry of a minimum of the first five characters of a name (unless the name has fewer than five letters) during keystroke searches.
 
 This repository provides software scripts and results for studies of keystroke disambiguation for drug product and medication names.
 
-## A Worked Example of Keystroke Disambiguation Analysis
+## A Simple Worked Example of a Keystroke Disambiguation Analysis
 
-As a worked example, consider the following very short list of only four medication names:
+Consider the following very short list of only four medication names:
 
 1. Aspirin
 2. Fluconazole
