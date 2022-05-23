@@ -4,6 +4,8 @@
 
 Keystroke disambiguation is the process of typing one character at a time as a method of searching over a namespace to find and select a single drug product or medication name. As each new character is entered the search is focused towards a smaller and smaller group of possible candidate names until finally enough characters are typed in to arrive at only one name. This process simply removes drug product and medication ambiguity keystroke by keystroke.
 
+For this analysis, it is assumed that the searcher pressing keystrokes and consequently entering characters has an intended drug product or medication name in mind and is trying to select that name from the list. 
+
 Unfortunately, many medication errors, including some that have led to harm and death, have involved inadequate keystroke disambiguation.
 
 To minimize the risk of more of this type of medication error, since 2019 the Institute for Safe Medication Practices has recommended the entry of a minimum of the first five characters of a drug name (unless the name has fewer than five letters) during keystroke searches.
