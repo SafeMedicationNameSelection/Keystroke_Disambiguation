@@ -116,9 +116,11 @@ The fifth tab provides a blank pre-formatted Medication Name Disambiguation (MND
 
 ## Problems Keeping Drug Product and Medication Names Straight
 
-For approved drug products, our drug product and medication namespace is a crowded, confusing, constantly changing mashup. Here is a quick tour through some of the many issues that pertain to keeping the names straight and selecting the correct drug product. The biggest issue of all is SAFETY. With several thousand or more drug products containing various medications already on the market, and more coming to market all the time, people regularly confuse the names in this namespace or overlook their differences. Confusing and misperceiving these names leads to medication errors, some of which have resulted in lasting harm, even death.
+For approved drug products, our drug product and medication namespace is a crowded, confusing, constantly changing mashup. Here is a quick tour through some of the many issues that pertain to keeping the names straight. 
 
-The first issue is that we call the same medication by multiple names. Approved drug products contain medications with generic names, however the drug products themselves can have one or more brand names in the marketplace (e.g., aspirin versus Ecotrin and Zorprin). 
+Keeping names straight is critical for SAFETY. With several thousand or more drug products containing various medications already on the market, and more coming to market all the time, people regularly confuse the names or overlook their differences. Confusing and misperceiving these names leads to medication errors, some of which have resulted in lasting harm, even death.
+
+The first issue with drug product and medication names is that we call the same thing by multiple names. Approved drug products contain medications with generic names, however the drug products themselves can have one or more brand names in the marketplace (e.g., aspirin versus Ecotrin and Zorprin). Giving many names to the same thing adds complexity to the namespace and causes confusion.  
 
 The second issue is that drug products are often referred to in a shorthand way by using only the generic names of the medications they carry (e.g., “May I have an aspirin?”). The drug product in this case might be an ‘aspirin 81 mg oral tablet’ or an ‘aspirin 325 mg oral tablet’ or something else. Using generic names this way can cause confusion and may lead to errors. 
 
