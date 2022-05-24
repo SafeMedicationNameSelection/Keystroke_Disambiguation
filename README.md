@@ -21,9 +21,10 @@ Consider the following very short list of only four medication names:
 
 Each round of the analysis involves an increasing number of keystrokes and corresponding characters used to disambiguate the names on the list. 
 
-In Round 1, one keystroke is used and so the single-character search terms identified by the algorithm are "A", "F", and "N". The following details are computed and reported for this round:
+In Round 1, one keystroke is used and so the single-character search terms identified by the algorithm are "A", "F", and "N". The following details of the search string used (string), number of times a match is made (times), and the names matched are computed and reported like this:
 
 ```
+ROUND 1 RESULTS (1-character search terms)
 string,A,times,1,names,Aspirin
 string,F,times,2,names,Fluconazole,Fluoxetine
 string,N,times,1,names,Niacin
@@ -36,6 +37,7 @@ Rounds 2 and 3, where 2 and 3 keystrokes and corresponding characters are used, 
 In Round 4, things change and, for this example list with only 4 names, maximum and complete disambiguity is finally reached. The following details are computed and reported for Round 4:
 
 ```
+ROUND 4 RESULTS (4-character search terms)
 string,Aspi,times,1,names,Aspirin
 string,Fluc,times,1,names,Fluconazole
 string,Fluo,times,1,names,Fluoxetine
@@ -47,6 +49,7 @@ Reading the details from Round 4 above, notice how each of the 4 names is now un
 Rounds 5 through 11 continue similarly with increasingly lengthy search terms until finally, in Round 11, the longest and only name with 11 characters - Fluconazole - is all that is left in the search space. The other three names have been removed from the search space immediately after the rounds in which they were fully specified. For example, since the name Niacin has 6 characters it is removed from the search space and the analysis after Round 6. Here are details from Round 11, the last round:
 
 ```
+ROUND 11 RESULTS (11-character search term)
 string,Fluconazole,times,1,names,Fluconazole
 ```
 
