@@ -19,3 +19,11 @@ There are 2 output files generated from running the MedNameListAnalyzer. Example
 2. Numeric counts and summary data is found in the NameSearchSummary.csv file.
 
 ### Running the MedNameListAnalyzer
+
+To run the MedNameListAnalyzer, first download and install Node JS. Once that is done, from within a folder with the MedNameListAnalyzer.js file and its two input files, simply run this command:
+
+```
+>node MedNameListAnalyzer.js
+```
+
+That's it!
