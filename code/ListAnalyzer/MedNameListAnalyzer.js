@@ -12,11 +12,18 @@ fs.writeFileSync('NameSearchDetails.txt', "FILE START\n", err => {
 var medListFromFile = fs.readFileSync("./medList.txt").toString('utf-8');
 var medsByLine = medListFromFile.split("\n");
 
+// Read tag list from file
+var tagListFromFile = fs.readFileSync("./tagList.txt").toString('utf-8');
+var tagsByLine = tagListFromFile.split("\n");
+
 // Convert All Spaces in Drug Names to Underscores Instead
 medsByLine.forEach((element, index) => {
   medsByLine[index] = element.replace(/[" "]+/g,"_");
 });
 
+tagsByLine.forEach((element, index) => {
+  tagsByLine[index] = element.replace(/[" "]+/g,"_");
+});
 
 // Identify length of longest medication name input from file
 var cycles = getLongestElement(medsByLine);
@@ -44,7 +51,7 @@ var uniquesFound = [];
 // Run analysis cycles for every relevant length of search term from 1 .. longest
 for (var i = 1; i <= cycles; i++) {
   capturedUnresolveds.push(i);
-  var result = overlapAnalysisProcess(medsByLine,i);
+  var result = overlapAnalysisProcess(medsByLine,i,tagsByLine);
   console.log(result);
   fs.appendFileSync('NameSearchSummary.csv', result + "\n" , err => {
     if (err) {
@@ -82,9 +89,9 @@ for (const element of uniquesFound) {
 }
 
 
-function overlapAnalysisProcess (nameList, characterNum) {
+function overlapAnalysisProcess (nameList, characterNum, tagList) {
   var prefixList = getAllSearchTerms(nameList, characterNum);
-  var countsList = getAllPrefixCounts(prefixList, nameList);
+  var countsList = getAllPrefixCounts(prefixList, nameList, tagList);
   var namesThisLength = countMedNamesByLength (nameList, characterNum);
   var totalTimes = 0;
   var totalUniques = 0;
@@ -144,15 +151,15 @@ function getAllSearchTerms (medNamesArr,numberChars)
   return (searchTermsArray);
 }
 
-function getAllPrefixCounts (prefixes, names) {
+function getAllPrefixCounts (prefixes, names, tags) {
   countsArray = [];
   for (const element of prefixes) {
-    countsArray.push(countNameStartMatches(element, names));
+    countsArray.push(countNameStartMatches(element, names, tags));
   }
   return (countsArray);
 }
 
-function countNameStartMatches (searchChars, medNamesArr)
+function countNameStartMatches (searchChars, medNamesArr, tagsArr)
 {
   var matches = 0;
   var matchedWith = [];
@@ -160,7 +167,11 @@ function countNameStartMatches (searchChars, medNamesArr)
   for (const element of medNamesArr) {
     if (element.startsWith(searchChars)) {
       matches = matches + 1;
-      matchedWith.push(element);
+      if (tagsArr.includes(element)) {
+         matchedWith.push(element + "*");
+      } else {
+         matchedWith.push(element);
+      }
     }
   }
   outputObject.string = searchChars;
