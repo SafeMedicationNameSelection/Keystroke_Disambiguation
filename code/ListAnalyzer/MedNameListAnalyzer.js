@@ -18,12 +18,23 @@ var tagsByLine = tagListFromFile.split("\n");
 
 // Convert All Spaces in Drug Names to Underscores Instead
 medsByLine.forEach((element, index) => {
-  medsByLine[index] = element.replace(/[" "]+/g,"_");
+  medsByLine[index] = element.replace(/[' ']+/g,'_');
+  //medsByLine[index] = element.replace(/(\r)/g,"");
 });
 
 tagsByLine.forEach((element, index) => {
   tagsByLine[index] = element.replace(/[" "]+/g,"_");
+  //tagsByLine[index] = element.replace(/(\r)/g,"");
 });
+
+medsByLine.forEach((element, index) => {
+  medsByLine[index] = element.replace(/(\r)/g,"");
+});
+
+tagsByLine.forEach((element, index) => {
+  tagsByLine[index] = element.replace(/(\r)/g,"");
+});
+
 
 // Identify length of longest medication name input from file
 var cycles = getLongestElement(medsByLine);
