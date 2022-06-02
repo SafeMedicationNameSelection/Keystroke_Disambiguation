@@ -1,405 +1,882 @@
-characters,search_terms,search_space_size,names_by_length,unresolved_items,disambiguated_names,possible_misses
-1,24,224,0,219,5,200
-2,98,224,0,178,46,126
-3,173,224,1,80,144,51
-4,203,223,0,31,193,20
-5,210,223,1,21,203,13
-6,214,222,3,12,212,8
-7,212,219,5,11,213,7
-8,208,214,19,9,215,6
-9,194,195,33,2,222,1
-10,161,162,53,2,222,1
-11,108,109,47,2,222,1
-12,62,62,18,0,223,0
-13,44,44,15,0,223,0
-14,29,29,9,0,223,0
-15,20,20,7,0,223,0
-16,13,13,6,0,223,0
-17,7,7,1,0,223,0
-18,6,6,1,0,223,0
-19,5,5,2,0,223,0
-20,3,3,1,0,223,0
-21,2,2,0,0,223,0
-22,2,2,2,0,223,0
+characters,search_terms,search_space_size,names_by_length,unresolved_items,disambiguated_names,possible_misses,raw_keystroke_power,percent_keystroke_power,unresolved_tagged_names,disambiguated_tagged_names
+0,0,462,0,462,0,461,NA,NA,11,0
+1,23,462,0,461,1,439,22,4.8,10,1
+2,143,462,3,407,55,319,120,26,9,2
+3,312,459,6,232,229,147,172,37.2,4,7
+4,384,453,9,113,346,69,78,16.9,0,11
+5,399,444,14,74,385,45,24,5.2,0,11
+6,402,430,39,48,411,28,17,3.7,0,11
+7,371,391,72,38,421,20,8,1.7,0,11
+8,303,319,72,31,426,16,4,0.9,0,11
+9,233,247,68,27,428,14,2,0.4,0,11
+10,169,179,56,20,431,10,4,0.9,0,11
+11,116,123,36,14,435,7,3,0.6,0,11
+12,82,87,19,10,437,5,2,0.4,0,11
+13,64,68,18,8,439,4,1,0.2,0,11
+14,48,50,12,4,441,2,2,0.4,0,11
+15,37,38,7,2,442,1,1,0.2,0,11
+16,30,31,6,2,442,1,0,0,0,11
+17,24,25,2,2,442,1,0,0,0,11
+18,23,23,3,0,443,0,1,0.2,0,11
+19,20,20,2,0,443,0,0,0,0,11
+20,18,18,3,0,443,0,0,0,0,11
+21,15,15,4,0,443,0,0,0,0,11
+22,11,11,3,0,443,0,0,0,0,11
+23,8,8,3,0,443,0,0,0,0,11
+24,5,5,0,0,443,0,0,0,0,11
+25,5,5,1,0,443,0,0,0,0,11
+26,4,4,0,0,443,0,0,0,0,11
+27,4,4,0,0,443,0,0,0,0,11
+28,4,4,2,0,443,0,0,0,0,11
+29,2,2,1,0,443,0,0,0,0,11
+30,1,1,0,0,443,0,0,0,0,11
+31,1,1,0,0,443,0,0,0,0,11
+32,1,1,0,0,443,0,0,0,0,11
+33,1,1,0,0,443,0,0,0,0,11
+34,1,1,1,0,443,0,0,0,0,11
 
 Unresolved List
 1
-A | Advair,Atripla,Avalide,Augmentin,Acetaminophen,Acyclovir,Albuterol,Alendronate,Alfuzosin,Allopurinol,Alprazolam*,Amitriptyline,Amlodipine,Amoxicillin,Apixaban,Aspirin,Atenolol,Atomoxetine,Atorvastatin,Azithromycin
-B | Benicar,Baclofen,Benztropine,Betamethasone,Bevacizumab,Bisoprolol,Buprenorphine*,Butalbital*
-F | Fioricet*,Famotidine,Fenofibrate,Fentanyl*,Ferrous_sulfate,Finasteride,Fingolimod,Fluconazole,Fluoxetine,Fluticasone,Fluticasone_propionate,Fluvoxamine,Furosemide
-H | Hyzaar,Haloperidol,Heparin_Sodium,Hydralazine,Hydrochlorothiazide,Hydrocodone*,Hydrocortisone,Hydroxychloroquine
-L | Lotrisone,Lactulose,Lamotrigine,Lansoprazole,Levetiracetam,Levodopa,Levofloxacin,Levothyroxine,Lidocaine,Liraglutide,Lisdexamfetamine,Lisinopril,Lorazepam*,Losartan,Lovastatin
-N | Night_Time,Nabumetone,Naloxone,Naproxen,Niacin,Nitrofurantoin,Nitroglycerin,Nortriptyline
-P | Percocet*,Pantoprazole,Paroxetine,Pemetrexed,Penicillin,Perindopril,Phenazopyridine,Phenytoin,Pioglitazone,Pravastatin,Prednisolone,Prednisone,Pregabalin
-R | Robitussin,Rabeprazole,Raloxifene,Raltegravir,Ramipril,Ranitidine,Risedronate,Risperidone,Rivaroxaban,Ropinirole,Rosuvastatin
-S | Stalevo_50,Suboxone*,Salmeterol,Senna,Sertraline,Sevelamer,Sildenafil,Simvastatin,Sitagliptin,Sofosbuvir,Solifenacin,Spironolactone,Sumatriptan
-V | Vicodin*,Valganciclovir,Valproate_sodium,Vardenafil,Venlafaxine
-C | Caffeine,Canagliflozin,Carbidopa,Carvedilol,Cefdinir,Cefuroxime,Celecoxib,Cephalexin,Chlorhexidine,Chlorpheniramine,Cinacalcet,Ciprofloxacin,Citalopram,Clarithromycin,Clavulanic_acid,Clindamycin,Clonazepam*,Clopidogrel,Clotrimazole,Clozapine,Colchicine,Conjugated_estrogens,Cyclosporin
-D | Dabigatran,Dalteparin,Denosumab,Dextromethorphan,Diazepam*,Diclofenac,Dicyclomine,Diphenhydramine,Donepezil,Doxazosin,Doxycycline,Drospirenone,Dutasteride
-E | Efavirenz,Eletriptan,Emtricitabine,Enalapril,Enoxaparin,Entacapone,Epoetin_alfa,Escitalopram,Esomeprazole,Eszopiclone,Etanercept,Ethinyl_estradiol,Ezetimibe
-G | Gabapentin,Gemfibrozil,Glimepiride,Glipizide,Glyburide,Granisetron,Guaifenesin
-I | Ibandronate,Ibuprofen,Imipramine,Infliximab,Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro,Ipratropium,Irbesartan,Isosorbide_mononitrate
-M | Meloxicam,Memantine,Metformin,Methadone*,Methocarbamol,Methotrexate,Methylphenidate,Metoclopramide,Metoprolol,Metronidazole,Montelukast,Moxifloxacin,Mupirocin
-O | Olanzapine,Olmesartan,Omalizumab,Omega-3_fatty_acids,Omeprazole,Ondansetron,Oseltamivir,Oxycodone*
-T | Tadalafil,Temazepam*,Tenofovir,Terazosin,Tetracycline,Tiotropium,Tizanidine,Tramadol,Trastuzumab,Trazodone,Triamcinolone,Triamterene
-Z | Zaleplon,Zoledronic_acid,Zolmitriptan,Zolpidem*
+a | acetaminophen,acetaminophen-codeine,adderall,adenocard,adenosine,adrenalin,advil,aggrastat,albumin,albuterol,alfenta,alfentanil,allopurinol,alprazolam,altafrin,alum-mag,alvimopan,ambien,amidate,amiodarone,amitriptyline,amlodipine,amobarbital,amoxicillin-clavulanate,ampicillin-sulbactam,amytal,ancef,anectine,anti-inhibitor,antilirium,apixaban*,apresoline,arformoterol,aricept,armodafinil,ascorbic_acid,aspirin,atarax,ativan,atorvastatin,atropine,atrovent,augmentin,aveed,avelox,azithromycin
+b | b&o,bactroban,belladonna-opium,benadryl,benzocaine-menthol,bisacodyl,bloxiverz,brevibloc,brevital,bridion,brivaracetam,briviact,brovana,budesonide,budesonide-formoterol,bumetanide,bumex,bupivacaine,buprenex,buprenorphine,buprenorphine-naloxone,butorphanol
+c | cafcit,caffeine,calan,calcitriol,calcium,cannabidiol,carbidopa-levodopa,carboxymethylcellulose,carvedilol,cefazolin,cefepime,ceftazidime,ceftriaxone,celecoxib,cellulose,cephulac,cetirizine,chloraseptic,chlordiazepoxide,chlorhexidine,cholecalciferol,citalopram,cleocin,clindamycin,clobazam,clonazepam,clonidine,clopidogrel,cocaine,colace,compazine,concerta,cordarone,coreg,coumadin*,cozaar,crestor,cyclobenzaprine,cyclogyl,cyclomydril,cyclopentolate,cyclopentolate-phenylephrine,cyklokapron,cytomel
+d | d-vi-sol,d10w,d50,d5w,darunavir,decadron,demerol,depakote,depo-testosterone,desitin,desyrel,dexamethasone,dexmedetomidine*,dextroamphetamine,dextroamphetamine-amphetamine,dextromethorphan-guaifenesin,dextrose,dextrostat,diastat,diazepam,diclofenac,dilaudid,diluent,diphenhydramine,diphenoxylate-atropine,diphtheria-pertussis(acel)-tetanus,diprivan,divalproex,docusate,dolophine,dolophoine,donepezil,dopamine,doxycycline,dronabinol,droperidol,dulcolax,duo-neb,duraclon,duragesic,dynacirc
+e | effexor,elavil,electrolyte-a,eliquis*,emla,enemeez,enoxaparin,entereg,entresto,ephedrine,epidiolex,epinephrine,epoetin*,epoprostenol,erythromycin,esmolol,etomidate
+f | famotidine,feiba,fentanyl,fentanyl-bupiv,ferrous,fibrinogen,flagyl,flecainide*,fleet,flexeril,flolan,flomax,flu,fluarix,flumazenil,fluzone,fortaz,fosfomycin,furosemide,fycompa
+g | gabapentin,garamycin,gentamicin,geodon,glutose,glycopyrrolate,guaifenesin,guaifenesin-codeine,guanfacine
+h | haldol,haloperidol,heparin,humalog,humulin,hycodan,hydralazine,hydrochlorothiazide,hydrocodone-apap,hydrocodone-homatropine,hydrocortisone,hydromorphone,hydroxyzine,hytrin
+i | ibuprofen,ilotycin,inapsine,insulin,iohexol,ipratropium,ipratropium-albuterol,iron,isopto,isordil,isosorbide,isradipine
+k | kcl*,kdur,keppra,ketalar,ketamine,ketorolac,klonopin,klor-con
+l | labetalol,lacosamide,lactulose,lantus,lasix,latanoprost,levetiracetam,levophed,levothyroxine,librium,lidocaine,lidocaine-epinephrine,lidocaine-prilocaine,liothyronine,lipitor,lisdexamfetamine,lisinopril,lokelma,lomotil,lopressor,lorazepam,losartan,lovenox,luminal,lyrica
+m | mag,mag-al,magnesium,mannitol,marinol,maxipime,melatonin,meperidine,methadone,methocarbamol,methohexital,methylphenidate,metoclopramide,metolazone,metoprolol,metronidazole,microzide,midazolam,miralax,monurol,morphine,motrin,moxifloxacin,ms,msir,mucinex,multivitamin,mupirocin,mydriacyl
+n | nalbuphine,naloxone,narcan,nembutal,neo-synephrine,neostigmine,neurontin,neutra-phos,nexterone,nicoderm,nicotine,nitro-bid,nitroglycerin,nitrostat,norco,norepinephrine,norvasc,ns,nubain,nucynta,nuvigil
+o | ocean,ofirmev,omnipaque,ondansetron,onfi,orazinc,oxandrin,oxandrolone,oxycodone,oxycodone-apap,oxycontin
+p | pantoprazole,pe-tropicamide-diclofenac,pentobarbital,pepcid,perampanel,percocet,peridex,phenergan,phenobarbital,phenylephrine,phos-nak,physostigmine,phytonadione,piperacillin-tazobactam,pitressin,plasma-lyte,plavix,polyethylene,pontocaine,potassium*,pravachol,pravastatin,precedex,pregabalin,prezista,prinivil,prochlorperazine,promethazine,propofol,protonix,proventil,proventil-proair,pulmicort
+r | racepinephrine,refresh,refrigerator,reglan,remdesivir,remifentanil,renvela,requip,restoril,retacrit,riastap,risperdal-m,risperdal,risperidone,ritalin,robaxin,robinul,robitussin-dm,robitussin,rocaltrol,rocephin,rocuronium*,romazicon,ropinirole,rosuvastatin,roxicodone
+s | s2,sacubitril-valsartan,scopolamine,senna-docusate,senokot-s,sensorcaine,sertraline,sevelamer,sinemet,sodium_chloride,solu-cortef,sorbitol,spiriva,stadol,sublimaze,suboxone,subutex,succinylcholine*,sufenta,sufentanil,sugammadex,surgicel,symbicort,synthroid
+t | tambocor,tamsulosin,tapentadol,tdap,temazepam,tenex,terazosin,testosterone,tetracaine,thera-m,therapeutic,thiamine,tiotropium,tirofiban,tizanidine,toprol-xl,toradol,tramadol,trandate,trandate-normodyne,tranexamic,transderm-scop,trazodone,tridil,tropicamide,tums,tylenol
+u | ultiva,ultram,unasyn
+v | valium,vancocin,vancomycin,vasopressin,venlafaxine,venofer,ventolin,verapamil,versed,vibra-tabs,vigamox,vimpat,vitamin,voltaren,vyvanse
+x | xalatan,xanax,xylocaine
+z | zanaflex,zaroxolyn,zemuron,zinc,ziprasidone,zofran,zoloft,zolpidem,zosyn,zyloprim,zyrtec
 2
-At | Atripla,Atenolol,Atomoxetine,Atorvastatin
-Be | Benicar,Benztropine,Betamethasone,Bevacizumab
-Fi | Fioricet*,Finasteride,Fingolimod
-Hy | Hyzaar,Hydralazine,Hydrochlorothiazide,Hydrocodone*,Hydrocortisone,Hydroxychloroquine
-Lo | Lotrisone,Lorazepam*,Losartan,Lovastatin
-Ni | Night_Time,Niacin,Nitrofurantoin,Nitroglycerin
-Pe | Percocet*,Pemetrexed,Penicillin,Perindopril
-Ro | Robitussin,Ropinirole,Rosuvastatin
-Su | Suboxone*,Sumatriptan
-Ac | Acetaminophen,Acyclovir
-Al | Albuterol,Alendronate,Alfuzosin,Allopurinol,Alprazolam*
-Am | Amitriptyline,Amlodipine,Amoxicillin
-Bu | Buprenorphine*,Butalbital*
-Ca | Caffeine,Canagliflozin,Carbidopa,Carvedilol
-Ce | Cefdinir,Cefuroxime,Celecoxib,Cephalexin
-Ch | Chlorhexidine,Chlorpheniramine
-Ci | Cinacalcet,Ciprofloxacin,Citalopram
-Cl | Clarithromycin,Clavulanic_acid,Clindamycin,Clonazepam*,Clopidogrel,Clotrimazole,Clozapine
-Co | Colchicine,Conjugated_estrogens
-Da | Dabigatran,Dalteparin
-De | Denosumab,Dextromethorphan
-Di | Diazepam*,Diclofenac,Dicyclomine,Diphenhydramine
-Do | Donepezil,Doxazosin,Doxycycline
-En | Enalapril,Enoxaparin,Entacapone
-Es | Escitalopram,Esomeprazole,Eszopiclone
-Et | Etanercept,Ethinyl_estradiol
-Fe | Fenofibrate,Fentanyl*,Ferrous_sulfate
-Fl | Fluconazole,Fluoxetine,Fluticasone,Fluticasone_propionate,Fluvoxamine
-Gl | Glimepiride,Glipizide,Glyburide
-Ib | Ibandronate,Ibuprofen
-In | Infliximab,Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
-La | Lactulose,Lamotrigine,Lansoprazole
-Le | Levetiracetam,Levodopa,Levofloxacin,Levothyroxine
-Li | Lidocaine,Liraglutide,Lisdexamfetamine,Lisinopril
-Me | Meloxicam,Memantine,Metformin,Methadone*,Methocarbamol,Methotrexate,Methylphenidate,Metoclopramide,Metoprolol,Metronidazole
-Mo | Montelukast,Moxifloxacin
-Na | Nabumetone,Naloxone,Naproxen
-Ol | Olanzapine,Olmesartan
-Om | Omalizumab,Omega-3_fatty_acids,Omeprazole
-Pa | Pantoprazole,Paroxetine
-Ph | Phenazopyridine,Phenytoin
-Pr | Pravastatin,Prednisolone,Prednisone,Pregabalin
-Ra | Rabeprazole,Raloxifene,Raltegravir,Ramipril,Ranitidine
-Ri | Risedronate,Risperidone,Rivaroxaban
-Se | Senna,Sertraline,Sevelamer
-Si | Sildenafil,Simvastatin,Sitagliptin
-So | Sofosbuvir,Solifenacin
-Te | Temazepam*,Tenofovir,Terazosin,Tetracycline
-Ti | Tiotropium,Tizanidine
-Tr | Tramadol,Trastuzumab,Trazodone,Triamcinolone,Triamterene
-Va | Valganciclovir,Valproate_sodium,Vardenafil
-Zo | Zoledronic_acid,Zolmitriptan,Zolpidem*
+ac | acetaminophen,acetaminophen-codeine
+ad | adderall,adenocard,adenosine,adrenalin,advil
+al | albumin,albuterol,alfenta,alfentanil,allopurinol,alprazolam,altafrin,alum-mag,alvimopan
+am | ambien,amidate,amiodarone,amitriptyline,amlodipine,amobarbital,amoxicillin-clavulanate,ampicillin-sulbactam,amytal
+an | ancef,anectine,anti-inhibitor,antilirium
+ap | apixaban*,apresoline
+ar | arformoterol,aricept,armodafinil
+as | ascorbic_acid,aspirin
+at | atarax,ativan,atorvastatin,atropine,atrovent
+av | aveed,avelox
+be | belladonna-opium,benadryl,benzocaine-menthol
+br | brevibloc,brevital,bridion,brivaracetam,briviact,brovana
+bu | budesonide,budesonide-formoterol,bumetanide,bumex,bupivacaine,buprenex,buprenorphine,buprenorphine-naloxone,butorphanol
+ca | cafcit,caffeine,calan,calcitriol,calcium,cannabidiol,carbidopa-levodopa,carboxymethylcellulose,carvedilol
+ce | cefazolin,cefepime,ceftazidime,ceftriaxone,celecoxib,cellulose,cephulac,cetirizine
+ch | chloraseptic,chlordiazepoxide,chlorhexidine,cholecalciferol
+cl | cleocin,clindamycin,clobazam,clonazepam,clonidine,clopidogrel
+co | cocaine,colace,compazine,concerta,cordarone,coreg,coumadin*,cozaar
+cy | cyclobenzaprine,cyclogyl,cyclomydril,cyclopentolate,cyclopentolate-phenylephrine,cyklokapron,cytomel
+d5 | d50,d5w
+de | decadron,demerol,depakote,depo-testosterone,desitin,desyrel,dexamethasone,dexmedetomidine*,dextroamphetamine,dextroamphetamine-amphetamine,dextromethorphan-guaifenesin,dextrose,dextrostat
+di | diastat,diazepam,diclofenac,dilaudid,diluent,diphenhydramine,diphenoxylate-atropine,diphtheria-pertussis(acel)-tetanus,diprivan,divalproex
+do | docusate,dolophine,dolophoine,donepezil,dopamine,doxycycline
+dr | dronabinol,droperidol
+du | dulcolax,duo-neb,duraclon,duragesic
+el | elavil,electrolyte-a,eliquis*
+en | enemeez,enoxaparin,entereg,entresto
+ep | ephedrine,epidiolex,epinephrine,epoetin*,epoprostenol
+fe | feiba,fentanyl,fentanyl-bupiv,ferrous
+fl | flagyl,flecainide*,fleet,flexeril,flolan,flomax,flu,fluarix,flumazenil,fluzone
+fo | fortaz,fosfomycin
+ga | gabapentin,garamycin
+ge | gentamicin,geodon
+gl | glutose,glycopyrrolate
+gu | guaifenesin,guaifenesin-codeine,guanfacine
+ha | haldol,haloperidol
+hu | humalog,humulin
+hy | hycodan,hydralazine,hydrochlorothiazide,hydrocodone-apap,hydrocodone-homatropine,hydrocortisone,hydromorphone,hydroxyzine,hytrin
+in | inapsine,insulin
+ip | ipratropium,ipratropium-albuterol
+is | isopto,isordil,isosorbide,isradipine
+ke | keppra,ketalar,ketamine,ketorolac
+kl | klonopin,klor-con
+la | labetalol,lacosamide,lactulose,lantus,lasix,latanoprost
+le | levetiracetam,levophed,levothyroxine
+li | librium,lidocaine,lidocaine-epinephrine,lidocaine-prilocaine,liothyronine,lipitor,lisdexamfetamine,lisinopril
+lo | lokelma,lomotil,lopressor,lorazepam,losartan,lovenox
+ma | mag,mag-al,magnesium,mannitol,marinol,maxipime
+me | melatonin,meperidine,methadone,methocarbamol,methohexital,methylphenidate,metoclopramide,metolazone,metoprolol,metronidazole
+mi | microzide,midazolam,miralax
+mo | monurol,morphine,motrin,moxifloxacin
+ms | ms,msir
+mu | mucinex,multivitamin,mupirocin
+na | nalbuphine,naloxone,narcan
+ne | nembutal,neo-synephrine,neostigmine,neurontin,neutra-phos,nexterone
+ni | nicoderm,nicotine,nitro-bid,nitroglycerin,nitrostat
+no | norco,norepinephrine,norvasc
+nu | nubain,nucynta,nuvigil
+on | ondansetron,onfi
+ox | oxandrin,oxandrolone,oxycodone,oxycodone-apap,oxycontin
+pe | pe-tropicamide-diclofenac,pentobarbital,pepcid,perampanel,percocet,peridex
+ph | phenergan,phenobarbital,phenylephrine,phos-nak,physostigmine,phytonadione
+pi | piperacillin-tazobactam,pitressin
+pl | plasma-lyte,plavix
+po | polyethylene,pontocaine,potassium*
+pr | pravachol,pravastatin,precedex,pregabalin,prezista,prinivil,prochlorperazine,promethazine,propofol,protonix,proventil,proventil-proair
+re | refresh,refrigerator,reglan,remdesivir,remifentanil,renvela,requip,restoril,retacrit
+ri | riastap,risperdal-m,risperdal,risperidone,ritalin
+ro | robaxin,robinul,robitussin-dm,robitussin,rocaltrol,rocephin,rocuronium*,romazicon,ropinirole,rosuvastatin,roxicodone
+se | senna-docusate,senokot-s,sensorcaine,sertraline,sevelamer
+so | sodium_chloride,solu-cortef,sorbitol
+su | sublimaze,suboxone,subutex,succinylcholine*,sufenta,sufentanil,sugammadex,surgicel
+sy | symbicort,synthroid
+ta | tambocor,tamsulosin,tapentadol
+te | temazepam,tenex,terazosin,testosterone,tetracaine
+th | thera-m,therapeutic,thiamine
+ti | tiotropium,tirofiban,tizanidine
+to | toprol-xl,toradol
+tr | tramadol,trandate,trandate-normodyne,tranexamic,transderm-scop,trazodone,tridil,tropicamide
+ul | ultiva,ultram
+va | valium,vancocin,vancomycin,vasopressin
+ve | venlafaxine,venofer,ventolin,verapamil,versed
+vi | vibra-tabs,vigamox,vimpat,vitamin
+xa | xalatan,xanax
+za | zanaflex,zaroxolyn
+zi | zinc,ziprasidone
+zo | zofran,zoloft,zolpidem,zosyn
+zy | zyloprim,zyrtec
 3
-Ben | Benicar,Benztropine
-Per | Percocet*,Perindopril
-Ato | Atomoxetine,Atorvastatin
-Car | Carbidopa,Carvedilol
-Cef | Cefdinir,Cefuroxime
-Chl | Chlorhexidine,Chlorpheniramine
-Cla | Clarithromycin,Clavulanic_acid
-Clo | Clonazepam*,Clopidogrel,Clotrimazole,Clozapine
-Dic | Diclofenac,Dicyclomine
-Dox | Doxazosin,Doxycycline
-Fen | Fenofibrate,Fentanyl*
-Fin | Finasteride,Fingolimod
-Flu | Fluconazole,Fluoxetine,Fluticasone,Fluticasone_propionate,Fluvoxamine
-Gli | Glimepiride,Glipizide
-Hyd | Hydralazine,Hydrochlorothiazide,Hydrocodone*,Hydrocortisone,Hydroxychloroquine
-Ins | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
-Lev | Levetiracetam,Levodopa,Levofloxacin,Levothyroxine
-Lis | Lisdexamfetamine,Lisinopril
-Met | Metformin,Methadone*,Methocarbamol,Methotrexate,Methylphenidate,Metoclopramide,Metoprolol,Metronidazole
-Nit | Nitrofurantoin,Nitroglycerin
-Ome | Omega-3_fatty_acids,Omeprazole
-Phe | Phenazopyridine,Phenytoin
-Pre | Prednisolone,Prednisone,Pregabalin
-Ral | Raloxifene,Raltegravir
-Ris | Risedronate,Risperidone
-Tra | Tramadol,Trastuzumab,Trazodone
-Tri | Triamcinolone,Triamterene
-Val | Valganciclovir,Valproate_sodium
-Zol | Zoledronic_acid,Zolmitriptan,Zolpidem*
+ace | acetaminophen,acetaminophen-codeine
+ade | adenocard,adenosine
+alb | albumin,albuterol
+alf | alfenta,alfentanil
+ami | amidate,amiodarone,amitriptyline
+amo | amobarbital,amoxicillin-clavulanate
+ant | anti-inhibitor,antilirium
+atr | atropine,atrovent
+ave | aveed,avelox
+ben | benadryl,benzocaine-menthol
+bre | brevibloc,brevital
+bri | bridion,brivaracetam,briviact
+bud | budesonide,budesonide-formoterol
+bum | bumetanide,bumex
+bup | bupivacaine,buprenex,buprenorphine,buprenorphine-naloxone
+caf | cafcit,caffeine
+cal | calan,calcitriol,calcium
+car | carbidopa-levodopa,carboxymethylcellulose,carvedilol
+cef | cefazolin,cefepime,ceftazidime,ceftriaxone
+cel | celecoxib,cellulose
+chl | chloraseptic,chlordiazepoxide,chlorhexidine
+clo | clobazam,clonazepam,clonidine,clopidogrel
+cor | cordarone,coreg
+cyc | cyclobenzaprine,cyclogyl,cyclomydril,cyclopentolate,cyclopentolate-phenylephrine
+dep | depakote,depo-testosterone
+des | desitin,desyrel
+dex | dexamethasone,dexmedetomidine*,dextroamphetamine,dextroamphetamine-amphetamine,dextromethorphan-guaifenesin,dextrose,dextrostat
+dia | diastat,diazepam
+dil | dilaudid,diluent
+dip | diphenhydramine,diphenoxylate-atropine,diphtheria-pertussis(acel)-tetanus,diprivan
+dol | dolophine,dolophoine
+dro | dronabinol,droperidol
+dur | duraclon,duragesic
+ent | entereg,entresto
+epi | epidiolex,epinephrine
+epo | epoetin*,epoprostenol
+fen | fentanyl,fentanyl-bupiv
+fle | flecainide*,fleet,flexeril
+flo | flolan,flomax
+flu | flu,fluarix,flumazenil,fluzone
+gua | guaifenesin,guaifenesin-codeine,guanfacine
+hal | haldol,haloperidol
+hum | humalog,humulin
+hyd | hydralazine,hydrochlorothiazide,hydrocodone-apap,hydrocodone-homatropine,hydrocortisone,hydromorphone,hydroxyzine
+ipr | ipratropium,ipratropium-albuterol
+iso | isopto,isordil,isosorbide
+ket | ketalar,ketamine,ketorolac
+klo | klonopin,klor-con
+lac | lacosamide,lactulose
+lev | levetiracetam,levophed,levothyroxine
+lid | lidocaine,lidocaine-epinephrine,lidocaine-prilocaine
+lis | lisdexamfetamine,lisinopril
+mag | mag,mag-al,magnesium
+met | methadone,methocarbamol,methohexital,methylphenidate,metoclopramide,metolazone,metoprolol,metronidazole
+nal | nalbuphine,naloxone
+neo | neo-synephrine,neostigmine
+neu | neurontin,neutra-phos
+nic | nicoderm,nicotine
+nit | nitro-bid,nitroglycerin,nitrostat
+nor | norco,norepinephrine,norvasc
+oxa | oxandrin,oxandrolone
+oxy | oxycodone,oxycodone-apap,oxycontin
+per | perampanel,percocet,peridex
+phe | phenergan,phenobarbital,phenylephrine
+phy | physostigmine,phytonadione
+pla | plasma-lyte,plavix
+pra | pravachol,pravastatin
+pre | precedex,pregabalin,prezista
+pro | prochlorperazine,promethazine,propofol,protonix,proventil,proventil-proair
+ref | refresh,refrigerator
+rem | remdesivir,remifentanil
+ris | risperdal-m,risperdal,risperidone
+rob | robaxin,robinul,robitussin-dm,robitussin
+roc | rocaltrol,rocephin,rocuronium*
+sen | senna-docusate,senokot-s,sensorcaine
+sub | sublimaze,suboxone,subutex
+suf | sufenta,sufentanil
+tam | tambocor,tamsulosin
+the | thera-m,therapeutic
+tra | tramadol,trandate,trandate-normodyne,tranexamic,transderm-scop,trazodone
+ult | ultiva,ultram
+van | vancocin,vancomycin
+ven | venlafaxine,venofer,ventolin
+ver | verapamil,versed
+zol | zoloft,zolpidem
 4
-Chlo | Chlorhexidine,Chlorpheniramine
-Flut | Fluticasone,Fluticasone_propionate
-Hydr | Hydralazine,Hydrochlorothiazide,Hydrocodone*,Hydrocortisone,Hydroxychloroquine
-Insu | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
-Levo | Levodopa,Levofloxacin,Levothyroxine
-Meth | Methadone*,Methocarbamol,Methotrexate,Methylphenidate
-Meto | Metoclopramide,Metoprolol
-Nitr | Nitrofurantoin,Nitroglycerin
-Phen | Phenazopyridine,Phenytoin
-Pred | Prednisolone,Prednisone
-Tria | Triamcinolone,Triamterene
+acet | acetaminophen,acetaminophen-codeine
+aden | adenocard,adenosine
+albu | albumin,albuterol
+alfe | alfenta,alfentanil
+anti | anti-inhibitor,antilirium
+atro | atropine,atrovent
+brev | brevibloc,brevital
+briv | brivaracetam,briviact
+bude | budesonide,budesonide-formoterol
+bume | bumetanide,bumex
+bupr | buprenex,buprenorphine,buprenorphine-naloxone
+calc | calcitriol,calcium
+carb | carbidopa-levodopa,carboxymethylcellulose
+ceft | ceftazidime,ceftriaxone
+chlo | chloraseptic,chlordiazepoxide,chlorhexidine
+clon | clonazepam,clonidine
+cycl | cyclobenzaprine,cyclogyl,cyclomydril,cyclopentolate,cyclopentolate-phenylephrine
+dext | dextroamphetamine,dextroamphetamine-amphetamine,dextromethorphan-guaifenesin,dextrose,dextrostat
+diph | diphenhydramine,diphenoxylate-atropine,diphtheria-pertussis(acel)-tetanus
+dolo | dolophine,dolophoine
+dura | duraclon,duragesic
+fent | fentanyl,fentanyl-bupiv
+guai | guaifenesin,guaifenesin-codeine
+hydr | hydralazine,hydrochlorothiazide,hydrocodone-apap,hydrocodone-homatropine,hydrocortisone,hydromorphone,hydroxyzine
+ipra | ipratropium,ipratropium-albuterol
+keta | ketalar,ketamine
+levo | levophed,levothyroxine
+lido | lidocaine,lidocaine-epinephrine,lidocaine-prilocaine
+meth | methadone,methocarbamol,methohexital,methylphenidate
+meto | metoclopramide,metolazone,metoprolol
+nico | nicoderm,nicotine
+nitr | nitro-bid,nitroglycerin,nitrostat
+oxan | oxandrin,oxandrolone
+oxyc | oxycodone,oxycodone-apap,oxycontin
+phen | phenergan,phenobarbital,phenylephrine
+prav | pravachol,pravastatin
+prov | proventil,proventil-proair
+refr | refresh,refrigerator
+risp | risperdal-m,risperdal,risperidone
+robi | robinul,robitussin-dm,robitussin
+sufe | sufenta,sufentanil
+ther | thera-m,therapeutic
+tran | trandate,trandate-normodyne,tranexamic,transderm-scop
+vanc | vancocin,vancomycin
 5
-Chlor | Chlorhexidine,Chlorpheniramine
-Fluti | Fluticasone,Fluticasone_propionate
-Hydro | Hydrochlorothiazide,Hydrocodone*,Hydrocortisone,Hydroxychloroquine
-Insul | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
-Metho | Methocarbamol,Methotrexate
-Nitro | Nitrofurantoin,Nitroglycerin
-Predn | Prednisolone,Prednisone
-Triam | Triamcinolone,Triamterene
+aceta | acetaminophen,acetaminophen-codeine
+adeno | adenocard,adenosine
+alfen | alfenta,alfentanil
+brevi | brevibloc,brevital
+budes | budesonide,budesonide-formoterol
+bupre | buprenex,buprenorphine,buprenorphine-naloxone
+calci | calcitriol,calcium
+chlor | chloraseptic,chlordiazepoxide,chlorhexidine
+cyclo | cyclobenzaprine,cyclogyl,cyclomydril,cyclopentolate,cyclopentolate-phenylephrine
+dextr | dextroamphetamine,dextroamphetamine-amphetamine,dextromethorphan-guaifenesin,dextrose,dextrostat
+diphe | diphenhydramine,diphenoxylate-atropine
+dolop | dolophine,dolophoine
+fenta | fentanyl,fentanyl-bupiv
+guaif | guaifenesin,guaifenesin-codeine
+hydro | hydrochlorothiazide,hydrocodone-apap,hydrocodone-homatropine,hydrocortisone,hydromorphone,hydroxyzine
+iprat | ipratropium,ipratropium-albuterol
+lidoc | lidocaine,lidocaine-epinephrine,lidocaine-prilocaine
+metho | methocarbamol,methohexital
+nitro | nitro-bid,nitroglycerin,nitrostat
+oxand | oxandrin,oxandrolone
+oxyco | oxycodone,oxycodone-apap,oxycontin
+prava | pravachol,pravastatin
+prove | proventil,proventil-proair
+rispe | risperdal-m,risperdal,risperidone
+robit | robitussin-dm,robitussin
+sufen | sufenta,sufentanil
+thera | thera-m,therapeutic
+trand | trandate,trandate-normodyne
+vanco | vancocin,vancomycin
 6
-Flutic | Fluticasone,Fluticasone_propionate
-Hydroc | Hydrochlorothiazide,Hydrocodone*,Hydrocortisone
-Insuli | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
-Predni | Prednisolone,Prednisone
+acetam | acetaminophen,acetaminophen-codeine
+alfent | alfenta,alfentanil
+budeso | budesonide,budesonide-formoterol
+bupren | buprenex,buprenorphine,buprenorphine-naloxone
+cyclop | cyclopentolate,cyclopentolate-phenylephrine
+dextro | dextroamphetamine,dextroamphetamine-amphetamine,dextromethorphan-guaifenesin,dextrose,dextrostat
+diphen | diphenhydramine,diphenoxylate-atropine
+doloph | dolophine,dolophoine
+fentan | fentanyl,fentanyl-bupiv
+guaife | guaifenesin,guaifenesin-codeine
+hydroc | hydrochlorothiazide,hydrocodone-apap,hydrocodone-homatropine,hydrocortisone
+ipratr | ipratropium,ipratropium-albuterol
+lidoca | lidocaine,lidocaine-epinephrine,lidocaine-prilocaine
+oxandr | oxandrin,oxandrolone
+oxycod | oxycodone,oxycodone-apap
+proven | proventil,proventil-proair
+risper | risperdal-m,risperdal,risperidone
+robitu | robitussin-dm,robitussin
+sufent | sufenta,sufentanil
+tranda | trandate,trandate-normodyne
 7
-Flutica | Fluticasone,Fluticasone_propionate
-Hydroco | Hydrocodone*,Hydrocortisone
-Insulin | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
-Prednis | Prednisolone,Prednisone
+acetami | acetaminophen,acetaminophen-codeine
+alfenta | alfenta,alfentanil
+budeson | budesonide,budesonide-formoterol
+bupreno | buprenorphine,buprenorphine-naloxone
+cyclope | cyclopentolate,cyclopentolate-phenylephrine
+dextroa | dextroamphetamine,dextroamphetamine-amphetamine
+dextros | dextrose,dextrostat
+fentany | fentanyl,fentanyl-bupiv
+guaifen | guaifenesin,guaifenesin-codeine
+hydroco | hydrocodone-apap,hydrocodone-homatropine,hydrocortisone
+ipratro | ipratropium,ipratropium-albuterol
+lidocai | lidocaine,lidocaine-epinephrine,lidocaine-prilocaine
+oxycodo | oxycodone,oxycodone-apap
+provent | proventil,proventil-proair
+risperd | risperdal-m,risperdal
+robitus | robitussin-dm,robitussin
+sufenta | sufenta,sufentanil
+trandat | trandate,trandate-normodyne
 8
-Fluticas | Fluticasone,Fluticasone_propionate
-Insulin_ | Insulin_aspart,Insulin_detemir,Insulin_glargine,Insulin_isophane,Insulin_lispro
-Predniso | Prednisolone,Prednisone
+acetamin | acetaminophen,acetaminophen-codeine
+budesoni | budesonide,budesonide-formoterol
+buprenor | buprenorphine,buprenorphine-naloxone
+cyclopen | cyclopentolate,cyclopentolate-phenylephrine
+dextroam | dextroamphetamine,dextroamphetamine-amphetamine
+fentanyl | fentanyl,fentanyl-bupiv
+guaifene | guaifenesin,guaifenesin-codeine
+hydrocod | hydrocodone-apap,hydrocodone-homatropine
+ipratrop | ipratropium,ipratropium-albuterol
+lidocain | lidocaine,lidocaine-epinephrine,lidocaine-prilocaine
+oxycodon | oxycodone,oxycodone-apap
+proventi | proventil,proventil-proair
+risperda | risperdal-m,risperdal
+robituss | robitussin-dm,robitussin
+trandate | trandate,trandate-normodyne
 9
-Fluticaso | Fluticasone,Fluticasone_propionate
+acetamino | acetaminophen,acetaminophen-codeine
+budesonid | budesonide,budesonide-formoterol
+buprenorp | buprenorphine,buprenorphine-naloxone
+cyclopent | cyclopentolate,cyclopentolate-phenylephrine
+dextroamp | dextroamphetamine,dextroamphetamine-amphetamine
+guaifenes | guaifenesin,guaifenesin-codeine
+hydrocodo | hydrocodone-apap,hydrocodone-homatropine
+ipratropi | ipratropium,ipratropium-albuterol
+lidocaine | lidocaine,lidocaine-epinephrine,lidocaine-prilocaine
+oxycodone | oxycodone,oxycodone-apap
+proventil | proventil,proventil-proair
+risperdal | risperdal-m,risperdal
+robitussi | robitussin-dm,robitussin
 10
-Fluticason | Fluticasone,Fluticasone_propionate
+acetaminop | acetaminophen,acetaminophen-codeine
+budesonide | budesonide,budesonide-formoterol
+buprenorph | buprenorphine,buprenorphine-naloxone
+cyclopento | cyclopentolate,cyclopentolate-phenylephrine
+dextroamph | dextroamphetamine,dextroamphetamine-amphetamine
+guaifenesi | guaifenesin,guaifenesin-codeine
+hydrocodon | hydrocodone-apap,hydrocodone-homatropine
+ipratropiu | ipratropium,ipratropium-albuterol
+lidocaine- | lidocaine-epinephrine,lidocaine-prilocaine
+robitussin | robitussin-dm,robitussin
 11
-Fluticasone | Fluticasone,Fluticasone_propionate
+acetaminoph | acetaminophen,acetaminophen-codeine
+buprenorphi | buprenorphine,buprenorphine-naloxone
+cyclopentol | cyclopentolate,cyclopentolate-phenylephrine
+dextroamphe | dextroamphetamine,dextroamphetamine-amphetamine
+guaifenesin | guaifenesin,guaifenesin-codeine
+hydrocodone | hydrocodone-apap,hydrocodone-homatropine
+ipratropium | ipratropium,ipratropium-albuterol
 12
+acetaminophe | acetaminophen,acetaminophen-codeine
+buprenorphin | buprenorphine,buprenorphine-naloxone
+cyclopentola | cyclopentolate,cyclopentolate-phenylephrine
+dextroamphet | dextroamphetamine,dextroamphetamine-amphetamine
+hydrocodone- | hydrocodone-apap,hydrocodone-homatropine
 13
+acetaminophen | acetaminophen,acetaminophen-codeine
+buprenorphine | buprenorphine,buprenorphine-naloxone
+cyclopentolat | cyclopentolate,cyclopentolate-phenylephrine
+dextroampheta | dextroamphetamine,dextroamphetamine-amphetamine
 14
+cyclopentolate | cyclopentolate,cyclopentolate-phenylephrine
+dextroamphetam | dextroamphetamine,dextroamphetamine-amphetamine
 15
+dextroamphetami | dextroamphetamine,dextroamphetamine-amphetamine
 16
+dextroamphetamin | dextroamphetamine,dextroamphetamine-amphetamine
 17
+dextroamphetamine | dextroamphetamine,dextroamphetamine-amphetamine
 18
 19
 20
 21
 22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
 
 Ordered Uniques List
-Yaz
-Ketoconazole
-Quetiapine
-Ustekinumab
-Warfarin
-Advair
-Avalide
-Augmentin
-Stalevo_50
-Vicodin*
-Apixaban
-Aspirin
-Azithromycin
-Baclofen
-Bisoprolol
-Cyclosporin
-Drospirenone
-Dutasteride
-Efavirenz
-Eletriptan
-Emtricitabine
-Epoetin_alfa
-Ezetimibe
-Famotidine
-Furosemide
-Gabapentin
-Gemfibrozil
-Granisetron
-Guaifenesin
-Haloperidol
-Heparin_Sodium
-Imipramine
-Ipratropium
-Irbesartan
-Isosorbide_mononitrate
-Mupirocin
-Nortriptyline
-Ondansetron
-Oseltamivir
-Oxycodone*
-Pioglitazone
-Salmeterol
-Spironolactone
-Tadalafil
-Venlafaxine
-Zaleplon
-Atripla
-Fioricet*
-Hyzaar
-Lotrisone
-Night_Time
-Robitussin
-Suboxone*
-Acetaminophen
-Acyclovir
-Albuterol
-Alendronate
-Alfuzosin
-Allopurinol
-Alprazolam*
-Amitriptyline
-Amlodipine
-Amoxicillin
-Atenolol
-Betamethasone
-Bevacizumab
-Buprenorphine*
-Butalbital*
-Caffeine
-Canagliflozin
-Celecoxib
-Cephalexin
-Cinacalcet
-Ciprofloxacin
-Citalopram
-Clindamycin
-Colchicine
-Conjugated_estrogens
-Dabigatran
-Dalteparin
-Denosumab
-Dextromethorphan
-Diazepam*
-Diphenhydramine
-Donepezil
-Enalapril
-Enoxaparin
-Entacapone
-Escitalopram
-Esomeprazole
-Eszopiclone
-Etanercept
-Ethinyl_estradiol
-Ferrous_sulfate
-Glyburide
-Ibandronate
-Ibuprofen
-Infliximab
-Lactulose
-Lamotrigine
-Lansoprazole
-Lidocaine
-Liraglutide
-Lorazepam*
-Losartan
-Lovastatin
-Meloxicam
-Memantine
-Montelukast
-Moxifloxacin
-Nabumetone
-Naloxone
-Naproxen
-Niacin
-Olanzapine
-Olmesartan
-Omalizumab
-Pantoprazole
-Paroxetine
-Pemetrexed
-Penicillin
-Pravastatin
-Rabeprazole
-Ramipril
-Ranitidine
-Rivaroxaban
-Ropinirole
-Rosuvastatin
-Senna
-Sertraline
-Sevelamer
-Sildenafil
-Simvastatin
-Sitagliptin
-Sofosbuvir
-Solifenacin
-Sumatriptan
-Temazepam*
-Tenofovir
-Terazosin
-Tetracycline
-Tiotropium
-Tizanidine
-Vardenafil
-Benicar
-Percocet*
-Atomoxetine
-Atorvastatin
-Benztropine
-Carbidopa
-Carvedilol
-Cefdinir
-Cefuroxime
-Clarithromycin
-Clavulanic_acid
-Clonazepam*
-Clopidogrel
-Clotrimazole
-Clozapine
-Diclofenac
-Dicyclomine
-Doxazosin
-Doxycycline
-Fenofibrate
-Fentanyl*
-Finasteride
-Fingolimod
-Fluconazole
-Fluoxetine
-Fluvoxamine
-Glimepiride
-Glipizide
-Levetiracetam
-Lisdexamfetamine
-Lisinopril
-Metformin
-Metronidazole
-Omega-3_fatty_acids
-Omeprazole
-Perindopril
-Pregabalin
-Raloxifene
-Raltegravir
-Risedronate
-Risperidone
-Tramadol
-Trastuzumab
-Trazodone
-Valganciclovir
-Valproate_sodium
-Zoledronic_acid
-Zolmitriptan
-Zolpidem*
-Hydralazine
-Levodopa
-Levofloxacin
-Levothyroxine
-Methadone*
-Methylphenidate
-Metoclopramide
-Metoprolol
-Phenazopyridine
-Phenytoin
-Chlorhexidine
-Chlorpheniramine
-Hydroxychloroquine
-Methocarbamol
-Methotrexate
-Nitrofurantoin
-Nitroglycerin
-Triamcinolone
-Triamterene
-Hydrochlorothiazide
-Hydrocodone*
-Hydrocortisone
-Insulin_aspart
-Insulin_detemir
-Insulin_glargine
-Insulin_isophane
-Insulin_lispro
-Prednisolone
-Prednisone
-Fluticasone_propionate
+warfarin*
+aggrastat
+augmentin
+azithromycin
+b&o
+bactroban
+bisacodyl
+bloxiverz
+citalopram
+crestor
+d-vi-sol
+d10w
+darunavir
+dynacirc
+effexor
+emla
+erythromycin
+esmolol
+etomidate
+famotidine
+fibrinogen
+furosemide
+fycompa
+heparin
+ibuprofen
+ilotycin
+iohexol
+iron
+kcl*
+kdur
+luminal
+lyrica
+mydriacyl
+ns
+ocean
+ofirmev
+omnipaque
+orazinc
+pantoprazole
+pulmicort
+racepinephrine
+s2
+sacubitril-valsartan
+scopolamine
+sinemet
+spiriva
+stadol
+tdap
+tums
+tylenol
+unasyn
+voltaren
+vyvanse
+xylocaine
+zemuron
+adderall
+adrenalin
+advil
+allopurinol
+alprazolam
+altafrin
+alum-mag
+alvimopan
+ambien
+amlodipine
+ampicillin-sulbactam
+amytal
+ancef
+anectine
+apixaban*
+apresoline
+arformoterol
+aricept
+armodafinil
+ascorbic_acid
+aspirin
+atarax
+ativan
+atorvastatin
+belladonna-opium
+brovana
+butorphanol
+cannabidiol
+cephulac
+cetirizine
+cholecalciferol
+cleocin
+clindamycin
+cocaine
+colace
+compazine
+concerta
+coumadin*
+cozaar
+cyklokapron
+cytomel
+d50
+d5w
+decadron
+demerol
+diclofenac
+divalproex
+docusate
+donepezil
+dopamine
+doxycycline
+dulcolax
+duo-neb
+elavil
+electrolyte-a
+eliquis*
+enemeez
+enoxaparin
+ephedrine
+feiba
+ferrous
+flagyl
+fortaz
+fosfomycin
+gabapentin
+garamycin
+gentamicin
+geodon
+glutose
+glycopyrrolate
+hycodan
+hytrin
+inapsine
+insulin
+isradipine
+keppra
+labetalol
+lantus
+lasix
+latanoprost
+librium
+liothyronine
+lipitor
+lokelma
+lomotil
+lopressor
+lorazepam
+losartan
+lovenox
+mannitol
+marinol
+maxipime
+melatonin
+meperidine
+microzide
+midazolam
+miralax
+monurol
+morphine
+motrin
+moxifloxacin
+msir
+mucinex
+multivitamin
+mupirocin
+narcan
+nembutal
+nexterone
+nubain
+nucynta
+nuvigil
+ondansetron
+onfi
+pe-tropicamide-diclofenac
+pentobarbital
+pepcid
+phos-nak
+piperacillin-tazobactam
+pitressin
+polyethylene
+pontocaine
+potassium*
+prinivil
+reglan
+renvela
+requip
+restoril
+retacrit
+riastap
+ritalin
+romazicon
+ropinirole
+rosuvastatin
+roxicodone
+sertraline
+sevelamer
+sodium_chloride
+solu-cortef
+sorbitol
+succinylcholine*
+sugammadex
+surgicel
+symbicort
+synthroid
+tapentadol
+temazepam
+tenex
+terazosin
+testosterone
+tetracaine
+thiamine
+tiotropium
+tirofiban
+tizanidine
+toprol-xl
+toradol
+tridil
+tropicamide
+valium
+vasopressin
+vibra-tabs
+vigamox
+vimpat
+vitamin
+xalatan
+xanax
+zanaflex
+zaroxolyn
+zinc
+ziprasidone
+zofran
+zosyn
+zyloprim
+zyrtec
+amidate
+amiodarone
+amitriptyline
+amobarbital
+amoxicillin-clavulanate
+aveed
+avelox
+benadryl
+benzocaine-menthol
+bridion
+bupivacaine
+cafcit
+caffeine
+calan
+carvedilol
+cefazolin
+cefepime
+celecoxib
+cellulose
+clobazam
+clopidogrel
+cordarone
+coreg
+depakote
+depo-testosterone
+desitin
+desyrel
+dexamethasone
+dexmedetomidine*
+diastat
+diazepam
+dilaudid
+diluent
+diprivan
+dronabinol
+droperidol
+entereg
+entresto
+epidiolex
+epinephrine
+epoetin*
+epoprostenol
+flecainide*
+fleet
+flexeril
+flolan
+flomax
+fluarix
+flumazenil
+fluzone
+guanfacine
+haldol
+haloperidol
+humalog
+humulin
+isopto
+isordil
+isosorbide
+ketorolac
+klonopin
+klor-con
+lacosamide
+lactulose
+levetiracetam
+lisdexamfetamine
+lisinopril
+mag-al
+magnesium
+metronidazole
+nalbuphine
+naloxone
+neo-synephrine
+neostigmine
+neurontin
+neutra-phos
+norco
+norepinephrine
+norvasc
+perampanel
+percocet
+peridex
+physostigmine
+phytonadione
+plasma-lyte
+plavix
+precedex
+pregabalin
+prezista
+prochlorperazine
+promethazine
+propofol
+protonix
+remdesivir
+remifentanil
+robaxin
+rocaltrol
+rocephin
+rocuronium*
+senna-docusate
+senokot-s
+sensorcaine
+sublimaze
+suboxone
+subutex
+tambocor
+tamsulosin
+tramadol
+trazodone
+ultiva
+ultram
+venlafaxine
+venofer
+ventolin
+verapamil
+versed
+zoloft
+zolpidem
+albumin
+albuterol
+anti-inhibitor
+antilirium
+atropine
+atrovent
+brivaracetam
+briviact
+bumetanide
+bumex
+carbidopa-levodopa
+carboxymethylcellulose
+ceftazidime
+ceftriaxone
+clonazepam
+clonidine
+diphtheria-pertussis(acel)-tetanus
+duraclon
+duragesic
+hydralazine
+ketalar
+ketamine
+levophed
+levothyroxine
+methadone
+methylphenidate
+metoclopramide
+metolazone
+metoprolol
+nicoderm
+nicotine
+phenergan
+phenobarbital
+phenylephrine
+refresh
+refrigerator
+robinul
+tranexamic
+transderm-scop
+adenocard
+adenosine
+brevibloc
+brevital
+calcitriol
+calcium
+chloraseptic
+chlordiazepoxide
+chlorhexidine
+cyclobenzaprine
+cyclogyl
+cyclomydril
+hydromorphone
+hydroxyzine
+methocarbamol
+methohexital
+nitro-bid
+nitroglycerin
+nitrostat
+oxycontin
+pravachol
+pravastatin
+thera-m
+therapeutic
+vancocin
+vancomycin
+buprenex
+dextromethorphan-guaifenesin
+diphenhydramine
+diphenoxylate-atropine
+dolophine
+dolophoine
+hydrochlorothiazide
+oxandrin
+oxandrolone
+risperidone
+alfentanil
+dextrose
+dextrostat
+hydrocortisone
+sufentanil
+fentanyl-bupiv
+trandate-normodyne
+oxycodone-apap
+proventil-proair
+risperdal-m
+budesonide-formoterol
+lidocaine-epinephrine
+lidocaine-prilocaine
+robitussin-dm
+guaifenesin-codeine
+ipratropium-albuterol
+hydrocodone-apap
+hydrocodone-homatropine
+acetaminophen-codeine
+buprenorphine-naloxone
+cyclopentolate-phenylephrine
+dextroamphetamine-amphetamine
