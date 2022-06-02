@@ -2,13 +2,15 @@
 
 ## What is keystroke disambiguation for drug product and medication names?
 
-Keystroke disambiguation is the process of typing one character at a time as a method of searching over a namespace to find and select a single drug product or medication name. As each new character is entered the search is focused towards a smaller and smaller group of possible candidate names until finally enough characters are typed in to arrive at only one name. This process simply removes drug product and medication ambiguity keystroke by keystroke.
+Keystroke disambiguation is the process of typing one character at a time (to sequentially create lengthening strings) as a method of providing discrete search terms for searching over a namespace WITH THE GOAL OF finding and selecting ONE drug product or medication name from a list. 
 
-For this analysis, it is assumed that the searcher pressing keystrokes and consequently entering characters has an intended drug product or medication name in mind and is trying to select that name from the list. Unfortunately, the process of finding and selecting a single drug product or medication by name this way can go awry. Many medication errors, including some that have led to harm and death, have involved inadequate keystroke disambiguation in the complex chain of error causation.
+As each new character is entered the search is focused towards a smaller and smaller group of possible matching candidate names until finally enough characters are typed in to arrive at only ONE name. This search process removes drug product and medication ambiguity keystroke by keystroke.
+
+For this analysis, it is assumed that the searcher pressing keystrokes and consequently entering characters has ONE intended drug product or medication name in mind and is trying to select that name from a list. Unfortunately, the process of finding and selecting a single drug product or medication by name this way can go awry. Many medication errors, including some that have led to harm and death, have involved inadequate keystroke disambiguation in larger more complex chains of error causation.
 
 To minimize the risk of more medication errors due in part to inadequate keystroke disambiguation of drug product and medication names, since 2019 the Institute for Safe Medication Practices has recommended the entry of a minimum of the first five characters of a name (unless the name has fewer than five letters) during keystroke searches.
 
-This repository provides software scripts and results for studies of keystroke disambiguation for drug product and medication names.
+This repository provides software scripts and results for studies of keystroke disambiguation for drug product and medication names. To better explain this material, what follows next is a worked example.
 
 ## A Simple Worked Example of a Keystroke Disambiguation Analysis
 
@@ -30,11 +32,11 @@ string,F,times,2,names,Fluconazole,Fluoxetine
 string,N,times,1,names,Niacin
 ```
 
-Notice how, in Round 1, two of the four names are already disambiguated due to their unique first characters, A for Aspirin and N for Niacin. However, one keystroke and corresponding character, "F", is not sufficient to disambiguate Fluconazole and Fluoxetine since both names start with "F".
+Notice how, in Round 1, two of the four names are already disambiguated due to their unique first characters, A for Aspirin and N for Niacin. However, the other remaining keystroke and corresponding single character, "F", is not sufficient to disambiguate Fluconazole and Fluoxetine since both names start with "F".
 
-Rounds 2 and 3, where 2 and 3 keystrokes and corresponding characters are used, respectively, do not further the disambiguation. In Round 2, the search terms are "As", "Fl", and "Ni". In Round 3 the search terms are "Asp", "Flu", "Nia". 
+Rounds 2 and 3, where 2 and 3 keystrokes and corresponding characters are used, respectively, do not further the disambiguation of Fluconazole and Fluoxetine. In Round 2, the search terms are "As", "Fl", and "Ni". In Round 3 the search terms are "Asp", "Flu", "Nia". 
 
-In Round 4, things change and, for this example list with only 4 names, maximum and complete disambiguity is finally reached. The following details are computed and reported for Round 4:
+In Round 4, results change and, for this example list with only 4 names, maximum and complete disambiguity is finally reached. The following details are computed and reported for Round 4:
 
 ```
 ROUND 4 RESULTS (4-character search terms)
