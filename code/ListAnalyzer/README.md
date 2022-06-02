@@ -48,23 +48,11 @@ characters,search_terms,search_space_size,names_by_length,unresolved_items,disam
 
 7,371,391,72,38,421,20,8,1.7,0,11
 
-8,303,319,72,31,426,16,4,0.9,0,11
-
-9,233,247,68,27,428,14,2,0.4,0,11
-
-10,169,179,56,20,431,10,4,0.9,0,11
-
-11,116,123,36,14,435,7,3,0.6,0,11
-
-12,82,87,19,10,437,5,2,0.4,0,11
-
-13,64,68,18,8,439,4,1,0.2,0,11
-
 .
 .
 .
 
-34,1,1,1,0,443,0,0,0,0,11
+
 
 As an example and to explain what these summary data mean, consider the second row of data after the header row:
 
