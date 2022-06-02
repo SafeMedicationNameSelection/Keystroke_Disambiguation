@@ -73,15 +73,25 @@ As an example and to explain what these summary data mean, consider the second r
 From left to right, these summary data indicate
 
 1, - that one character search was conducted to generate this row of data, e.g., searching for 'a', 'b', 'c', etc.
+
 23, - that there are twenty-three one-charcter search terms since names in medList.txt start with 23 different characters 
+
 462, - that there are 462 names still in the search space after typing 1 character (i.e., there are no one-character names)
+
 0, - that the number of names with 1 character is 0
+
 461, - that there remain 461 unresolved names after searching with 1 character
+
 1, - that one name has been disambiguated from all others by searching with 1 character
+
 439, - that there remain 439 possible ways of making a mis-selection or mis-pick when only 1 character is used to search
+
 22, - that the number of possible ways of making a mis-selection has decreases by 22 after searching with 1 character
+
 4.8, - that, out of 100% of available power, the first character has 4.8% of the power to disambiguate the names on the list
+
 10, - that of the names on the tagList, 10 of them remain unresolved after searching with 1 character
+
 1, - that of the names on the tagList, 1 of them has been disambiguated by searching with 1 character
 
 The headers that are part of the output provide relevant labels for these 11 summary data results.
