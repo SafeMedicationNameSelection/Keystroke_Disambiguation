@@ -1,4 +1,4 @@
-//Medlist Search May-June 2022
+//Medlist Search Original Version May-June 2022 - B version Sept 2022
 
 //Start writing Details file
 var fs = require("fs");
@@ -7,6 +7,21 @@ fs.writeFileSync('NameSearchDetails.txt', "FILE START\n", err => {
     console.error(err);
   }
 });
+
+// Start writing Summary file
+fs.writeFileSync('NameDataSummary.csv', "FILE START\n", err => {
+  if (err) {
+    console.error(err);
+  }
+});
+
+fs.writeFileSync('NameDataSummary.csv', "Total Rounds,Useful Rounds,Disambiguateds,Most Powerful Keystroke,Highest KP,Mean KP, Median KP,Variance KP,Std Dev KP, Skew KP,70%KP@,80%KP@,90%KP@" + "\n", err => {
+  if (err) {
+    console.error(err);
+  }
+});
+
+
 
 //GET INPUTS FOR PROCESSING
 // Read medlist from file
@@ -68,6 +83,9 @@ function getLongestElement (array) {
   return (longest);
 }
 
+// Start writing the overall summary data to its file
+fs.appendFileSync('NameDataSummary.csv',cycles + ",");
+
 //CSV file header
 console.log("characters,search_terms,search_space_size,names_by_length,unresolved_items,disambiguated_names,possible_misses,raw_keystroke_power,percent_keystroke_power,unresolved_tagged_names,disambiguated_tagged_names");
 fs.writeFileSync('NameSearchSummary.csv', "characters,search_terms,search_space_size,names_by_length,unresolved_items,disambiguated_names,possible_misses,raw_keystroke_power,percent_keystroke_power,unresolved_tagged_names,disambiguated_tagged_names\n", err => {
@@ -90,6 +108,8 @@ var uniquesFound = [];
 var neversDisamList = [];
 var previousPossibleMisses = (medsByLine.length-1);
 var maxSearchSpaceSize = medsByLine.length;
+var cycleAchievingZero = -1;
+var ptkeystrokePowerArray = [];
 
 //MAIN BODY
 // Run analysis cycles for every relevant length of search term from 1 .. longest
@@ -103,6 +123,54 @@ for (var i = 1; i <= cycles; i++) {
     }
   });
 }
+
+// Generate summary stats from ptkeystrokePowerArray
+var ptkeysTotal = 0;
+var ptkeysLargest = 0;
+var mostPowerfulKeystroke = 0;
+//console.log(ptkeystrokePowerArray);
+var ptkeysRunningTotal = 0;
+var ptkeysSeventy = 0;
+var ptkeysEighty = 0;
+var ptkeysNinety = 0;
+for (var k = 0; k < ptkeystrokePowerArray.length; k++) {
+   ptkeysRunningTotal = ptkeysRunningTotal + ptkeystrokePowerArray[k];
+   if (ptkeysRunningTotal > 70 && ptkeysSeventy == 0) {ptkeysSeventy = k+1;}
+   if (ptkeysRunningTotal > 80 && ptkeysEighty == 0) {ptkeysEighty = k+1;}
+   if (ptkeysRunningTotal > 90 && ptkeysNinety == 0) {ptkeysNinety = k+1;}
+}
+for (var k = 0; k < ptkeystrokePowerArray.length; k++) {
+  ptkeysTotal += ptkeystrokePowerArray[k];
+  if (ptkeystrokePowerArray[k] > ptkeysLargest) {
+    ptkeysLargest = ptkeystrokePowerArray[k];
+    mostPowerfulKeystroke = k + 1;
+  }
+}
+var ptkeysMean = ptkeysTotal / ptkeystrokePowerArray.length;
+var ptkeysVT = 0;
+for (var k = 0; k < ptkeystrokePowerArray.length; k++) {
+  var st = ptkeystrokePowerArray[k] - ptkeysMean;
+  var stsq = st * st;
+  ptkeysVT = ptkeysVT + stsq;
+}
+var ptkeysVariance = ptkeysVT / ptkeystrokePowerArray.length;
+var ptkeysSD = Math.sqrt(ptkeysVariance);
+var ptkeysMedian = -1;
+var medianArray = ptkeystrokePowerArray.sort(function(a,b){return a-b});
+const middle = Math.floor(medianArray.length/2);
+if (medianArray.length % 2 === 0) {
+    ptkeysMedian = (medianArray[middle-1] + medianArray[middle]) / 2;
+  } else {
+    ptkeysMedian = medianArray[middle];
+  }
+var ptkeysSkew = (3*(ptkeysMean-ptkeysMedian))/ptkeysSD;
+
+
+
+fs.appendFileSync('NameDataSummary.csv',mostPowerfulKeystroke + "," + ptkeysLargest + "," + ptkeysMean + "," + ptkeysMedian + "," + ptkeysVariance + "," + ptkeysSD + "," + ptkeysSkew + "," + ptkeysSeventy + "," + ptkeysEighty + "," + ptkeysNinety + "\n");
+
+
+
 //Write unresolved list to Summary file
 fs.appendFileSync('NameSearchSummary.csv', "\n" + "Unresolved List" + "\n" , err => {
   if (err) {
@@ -176,6 +244,14 @@ function overlapAnalysisProcess (nameList, characterNum, tagList) {
       console.error(err);
     }
   });
+  if (characterNum > 0 && unresolved == 0 && possibleMispicks == 0 && cycleAchievingZero == -1) {
+        fs.appendFileSync('NameDataSummary.csv',characterNum + "," + uniquesFound.length + ",");
+        cycleAchievingZero = characterNum;
+      }
+  if (characterNum > 0) {
+    ptkeystrokePowerArray.push(percentKeystrokePower);
+    // console.log(ptkeystrokePowerArray, ptkeystrokePowerArray.length);
+  }
   previousPossibleMisses = possibleMispicks;
   return (summary);
 }

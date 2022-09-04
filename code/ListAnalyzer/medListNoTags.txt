@@ -6,7 +6,6 @@ abelcet
 abilify
 abobotulinumtoxin a
 abraxane
-abstral
 accolate
 acd formula a
 acetadote
@@ -17,14 +16,10 @@ acetic acid
 acetylcholine chloride
 acetylcysteine
 acetylcysteine-meb12-levomefolate
-acova
 actemra
 acthib
 actidose-aqua
 actigall
-actilyse
-actiq
-activase
 activated charcoal
 acular
 acyclovir
@@ -36,7 +31,6 @@ adenocard
 adenoscan
 adenosine
 ado-trastuzumab emtansine
-adrenalin
 adriamycin
 adrucil
 adult trace
@@ -44,7 +38,6 @@ advair
 advate
 advil
 aflibercept
-afrezza
 afrin
 aggrastat
 aggrenox
@@ -73,7 +66,6 @@ alphanate
 alprazolam
 alprostadil
 altafrin
-alteplase
 alum
 alum-mag hydrox-simethicone
 aluminum hydrox-mag carb
@@ -90,7 +82,6 @@ amiloride
 amino acids
 aminocaproic acid
 aminophylline
-amiodarone
 amitriptyline
 amivantamab-vmjw
 amlodipine
@@ -110,8 +101,6 @@ analgesic balm
 anastrozole
 ancef
 ancobon
-anectine
-angiomax
 angiotensin ii
 anoro ellipta
 anti-inhibitor coagulant complex
@@ -126,7 +115,6 @@ antivert
 antizol
 anucort-hc
 anusol-hc
-apixaban
 aplisol
 apraclonidine
 aprepitant
@@ -140,7 +128,6 @@ aranesp
 arava
 aredia
 arformoterol
-argatroban
 arginine
 aricept
 arimidex
@@ -254,7 +241,6 @@ biktarvy
 biltricide
 bisacodyl
 bismuth subsalicylate
-bivalirudin
 black widow antivenin
 blenrep
 bleocin
@@ -421,7 +407,6 @@ cipro
 ciprodex
 ciprofloxacin
 ciprofloxacin-dexamethasone
-cisatracurium
 cisplatin
 citalopram
 citrate of magnesia
@@ -466,7 +451,6 @@ conjugated estrogens
 conray
 copanlisib
 copper
-cordarone
 coreg
 corlanor
 cortaid
@@ -478,7 +462,6 @@ corvert
 cosmegen
 cosopt
 cosyntropin
-coumadin
 covid-19 vaccine
 cozaar
 creon
@@ -527,7 +510,6 @@ d50w
 d5lr
 d5ns
 d5w
-dabigatran
 dacarbazine
 dacogen
 dactinomycin
@@ -603,9 +585,6 @@ dicyclomine
 dificid
 diflucan
 digifab
-digitek
-digox
-digoxin
 dihydroergotamine
 dilantin
 dilaudid
@@ -660,7 +639,6 @@ duloxetine
 duo-neb
 duovisc
 duraclon
-duragesic
 durvalumab
 dynacirc
 dysport
@@ -683,7 +661,6 @@ electrolyte-a
 eleview
 eligard
 elimite
-eliquis
 elitek
 elixophyllin
 ella
@@ -707,7 +684,6 @@ engerix-b
 enhertu
 enlon
 enlon-plus
-enoxaparin
 entacapone
 entecavir
 entereg
@@ -720,15 +696,12 @@ epaned
 ephedrine
 epi-pen
 epidiolex
-epinephrine
 epipen jr
 epirubicin
 epivir
 epoetin alfa
 epoetin alfa-epbx
 epogen
-epoprostenol
-eptifibatide
 eptinezumab-jjmr
 epzicom
 erbitux
@@ -787,8 +760,6 @@ felbamate
 felbatol
 femara
 fenofibrate
-fentanyl
-fentora
 fer-in-sol
 feraheme iv
 fergon
@@ -814,7 +785,6 @@ flecainide
 fleet
 flexeril
 flintstones
-flolan
 flomax
 flonase
 florinef
@@ -938,7 +908,6 @@ help
 hemabate
 hemin
 hemostat
-heparin
 hepatitis a and b vaccine
 hepatitis a virus vaccine
 hepatitis b immune globulin
@@ -952,7 +921,6 @@ high concentration dextrose 70%
 hpv vaccine
 humalog
 humate-p
-humulin
 hurricaine one
 hyaluronate sodium
 hyaluronidase
@@ -979,7 +947,6 @@ hyperhep b
 hyperrab
 hyperrho
 hypertet
-hypertonic sodium chloride 23.4%
 hytrin
 ibuprofen
 ibutilide
@@ -992,6 +959,12 @@ ifex
 ifosfamide
 ilotycin
 ilumya
+insulin glargine
+insulin infusion
+insulin isophane
+insulin lispro
+insulin regular
+insulin u-100 diluent
 iluvien intravitreal
 imatinib
 imdevimab
@@ -1025,9 +998,7 @@ infuvite adult
 infuvite pediatric
 injectafer
 inotuzumab ozogamicin
-insulin
 intal
-integrilin
 intelence
 interferon alfa-2b
 intralipid
@@ -1120,9 +1091,7 @@ lamisil
 lamivudine
 lamotrigine
 lanolin-mineral oil
-lanoxin
 lanreotide
-lantus
 laronidase
 lartruvo
 lasix
@@ -1154,7 +1123,6 @@ librium
 libtayo
 lidex
 lido-epi-tetracaine
-lidocaine
 lidocaine-epinephrine
 lidocaine-prilocaine
 liletta
@@ -1185,7 +1153,6 @@ lorazepam
 losartan
 lotrimin
 lotrisone
-lovenox
 loxapine
 loxitane
 lr
@@ -1380,7 +1347,6 @@ navelbine
 nebcin
 nebupent
 nelarabine
-nembutal
 neo-fradin
 neo-synephrine
 neomycin
@@ -1402,14 +1368,12 @@ neutra-phos
 nevirapine
 nexavar
 nexplanon
-nexterone
 niacin
 niaspan
 nicardipine
 nicoderm cq
 nicorette
 nifedipine
-nimbex
 nimodipine
 nimotop
 nipent
@@ -1426,7 +1390,6 @@ nivolumab
 nizoral
 nolvadex
 norco
-norcuron
 norethindrone
 norflex
 norflurane
@@ -1437,8 +1400,6 @@ nortriptyline
 norvasc
 norvir
 novantrone
-novolin
-novolog
 novoseven
 noxafil
 nplate
@@ -1508,7 +1469,6 @@ oxymetazoline
 oxytocin
 oxytrol
 ozurdex
-pacerone
 paclitaxel
 padcev
 pain ease
@@ -1549,7 +1509,6 @@ penicillin v potassium
 pentam 300
 pentamidine
 pentasa
-pentobarbital
 pentostatin
 pentoxifylline
 pepcid
@@ -1572,7 +1531,6 @@ pharmid
 phenazopyridine
 phenergan
 phenobarb-hyosc-atrop-scop
-phenobarbital
 phenol
 phentolamine
 phenylephrine
@@ -1617,10 +1575,8 @@ polyvinyl alcohol
 pontocaine
 poractant alfa
 posaconazole
-potassium
 poteligeo
 povidone-iodine
-pradaxa
 pralatrexate
 pralidoxime
 pramipexole
@@ -1704,7 +1660,6 @@ pyridoxal
 pyridoxine
 pyrimethamine
 qualaquin
-quelicin
 quetiapine
 quinaglute
 quinidine gluconate
@@ -1755,8 +1710,6 @@ rescue
 resta
 restoril
 retacrit
-retavase
-reteplase
 retisert
 retrovir
 revatio
@@ -1783,14 +1736,12 @@ rituxan
 rituximab
 rituximab-hyaluronidase
 rituximab-pvvr
-rivaroxaban
 rivastigmine
 robaxin
 robinul
 robitussin
 rocaltrol
 rocephin
-rocuronium
 romazicon
 romidepsin
 romiplostim
@@ -1908,7 +1859,6 @@ sublimaze
 suboxone
 subutex
 succimer
-succinylcholine
 sucralfate
 sudafed
 sufenta
@@ -1956,7 +1906,6 @@ temodar
 temovate
 temozolomide
 temsirolimus
-tenecteplase
 tenex
 tenivac
 tenofovir alafenamide
@@ -2000,7 +1949,6 @@ tiotropium
 tirofiban
 tivicay
 tizanidine
-tnkase
 tobi
 tobradex
 tobramycin
@@ -2017,7 +1965,6 @@ toprol
 toradol
 torisel
 torsemide
-tpa
 trabectedin
 tracleer
 tramadol
@@ -2111,11 +2058,9 @@ vaseline
 vasopressin
 vasotec
 vectibix
-vecuronium
 veetids
 velban
 velcade
-veletri
 vemlidy
 venclexta
 venelex
@@ -2172,10 +2117,9 @@ voriconazole
 vyepti
 vyvanse
 vyxeos
-warfarin
+water bacteriostatic
 water for injection
 water for irrigation
-water bacteriostatic
 waters cold storage
 wellbutrin
 wellcovorin
@@ -2184,7 +2128,6 @@ white petrolatum-mineral oil
 winrho
 xalatan
 xanax
-xarelto
 xeomin
 xevudy
 xgeva
@@ -2203,7 +2146,6 @@ zarontin
 zaroxolyn
 zarxio
 zemplar
-zemuron
 zenpep
 zepzelca
 zerbaxa
